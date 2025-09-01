@@ -1,0 +1,76 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+dist/
+build/
+out/
+bin/
+obj/
+
+# Docker volumes and data
+data/mongodb/
+data/redis/
+
+# SSL certificates
+*.pem
+*.key
+*.crt
+
+# Temporary files
+*.tmp
+*.temp
+relay-temp-config.json
+
+# Large installer files (keep original, exclude copies)
+rdp-agent-installer.tar.gz
+build/windows-agent-*.tar.gz
+build/windows-agent.zip

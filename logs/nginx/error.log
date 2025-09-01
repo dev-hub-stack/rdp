@@ -1,0 +1,1038 @@
+2025/08/26 19:30:07 [emerg] 1#1: host not found in upstream "portal-web:80" in /etc/nginx/nginx.conf:59
+2025/08/26 19:30:09 [emerg] 1#1: host not found in upstream "portal-web:80" in /etc/nginx/nginx.conf:59
+2025/08/26 19:30:10 [emerg] 1#1: host not found in upstream "portal-web:80" in /etc/nginx/nginx.conf:59
+2025/08/26 19:30:11 [emerg] 1#1: host not found in upstream "portal-web:80" in /etc/nginx/nginx.conf:59
+2025/08/26 19:30:12 [emerg] 1#1: host not found in upstream "portal-web:80" in /etc/nginx/nginx.conf:59
+2025/08/26 19:30:15 [emerg] 1#1: host not found in upstream "portal-web:80" in /etc/nginx/nginx.conf:59
+2025/08/26 19:30:19 [emerg] 1#1: host not found in upstream "portal-web:80" in /etc/nginx/nginx.conf:59
+2025/08/26 19:30:27 [emerg] 1#1: host not found in upstream "portal-web:80" in /etc/nginx/nginx.conf:59
+2025/08/26 19:30:40 [emerg] 1#1: host not found in upstream "portal-web:80" in /etc/nginx/nginx.conf:59
+2025/08/26 19:31:06 [emerg] 1#1: host not found in upstream "portal-web:80" in /etc/nginx/nginx.conf:59
+2025/08/26 19:31:58 [emerg] 1#1: host not found in upstream "portal-web:80" in /etc/nginx/nginx.conf:59
+2025/08/26 19:32:58 [emerg] 1#1: host not found in upstream "portal-web:80" in /etc/nginx/nginx.conf:59
+2025/08/26 19:33:59 [emerg] 1#1: host not found in upstream "portal-web:80" in /etc/nginx/nginx.conf:59
+2025/08/26 19:34:59 [emerg] 1#1: host not found in upstream "portal-web:80" in /etc/nginx/nginx.conf:59
+2025/08/26 19:37:11 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/default.conf:78
+2025/08/26 19:37:11 [notice] 1#1: using the "epoll" event method
+2025/08/26 19:37:11 [notice] 1#1: nginx/1.29.1
+2025/08/26 19:37:11 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/08/26 19:37:11 [notice] 1#1: OS: Linux 6.10.14-linuxkit
+2025/08/26 19:37:11 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/08/26 19:37:11 [notice] 1#1: start worker processes
+2025/08/26 19:37:11 [notice] 1#1: start worker process 21
+2025/08/26 19:37:11 [notice] 1#1: start worker process 22
+2025/08/26 19:37:11 [notice] 1#1: start worker process 23
+2025/08/26 19:37:11 [notice] 1#1: start worker process 24
+2025/08/26 19:37:11 [notice] 1#1: start worker process 25
+2025/08/26 19:37:11 [notice] 1#1: start worker process 26
+2025/08/26 19:37:11 [notice] 1#1: start worker process 27
+2025/08/26 19:37:11 [notice] 1#1: start worker process 28
+2025/08/27 09:59:48 [error] 27#27: *416 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "POST /api/tenants/68ae09d3096d59594289b03d/agents HTTP/1.1", upstream: "http://172.18.0.4:8080/api/tenants/68ae09d3096d59594289b03d/agents", host: "localhost:8080", referrer: "http://localhost:8080/agents"
+2025/08/27 10:48:05 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 10:48:06 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 10:48:07 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 10:48:08 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 10:48:09 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 10:48:12 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 10:48:16 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 10:48:23 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 10:48:36 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 10:49:02 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 10:52:53 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 10:52:54 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 10:52:55 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 10:52:56 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 10:52:57 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 10:53:00 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 10:53:05 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 10:53:12 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 10:53:25 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 10:53:51 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 10:54:43 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 10:55:43 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 10:56:44 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 10:57:44 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 10:58:45 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 10:59:45 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:00:46 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:01:46 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:02:47 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:03:47 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:04:48 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:05:49 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:06:50 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:07:53 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:08:55 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:09:57 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:10:58 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:12:00 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:13:01 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:14:02 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:15:05 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:16:06 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:17:07 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:18:08 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:19:08 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:20:09 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:21:09 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:22:10 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:23:11 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:24:11 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:25:12 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:26:12 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:27:13 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:28:14 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:29:16 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:30:18 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:31:20 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:32:22 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:33:23 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:34:24 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:35:25 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:36:26 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:37:26 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:38:27 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:39:28 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:40:29 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:41:29 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:42:30 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:43:31 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:44:32 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:45:34 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:46:35 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:47:37 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:48:38 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:49:39 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:50:43 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:51:45 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:52:50 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:53:51 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:54:52 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:55:57 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:57:04 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:58:06 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 11:59:08 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 12:00:11 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 12:01:19 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 12:02:20 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 12:03:24 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 12:04:31 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 12:05:34 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 12:06:36 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 12:07:40 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 12:08:41 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 12:09:44 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 12:10:54 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 12:11:58 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 12:13:02 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 12:14:04 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 12:17:27 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 12:17:30 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 12:17:32 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 12:17:33 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 12:17:36 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 12:17:40 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 12:17:46 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 12:17:54 [emerg] 1#1: host not found in upstream "portal-api:8080" in /etc/nginx/nginx.conf:55
+2025/08/27 18:14:20 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/default.conf:78
+2025/08/27 18:14:20 [notice] 1#1: using the "epoll" event method
+2025/08/27 18:14:20 [notice] 1#1: nginx/1.29.1
+2025/08/27 18:14:20 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/08/27 18:14:20 [notice] 1#1: OS: Linux 6.10.14-linuxkit
+2025/08/27 18:14:20 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/08/27 18:14:20 [notice] 1#1: start worker processes
+2025/08/27 18:14:20 [notice] 1#1: start worker process 21
+2025/08/27 18:14:20 [notice] 1#1: start worker process 22
+2025/08/27 18:14:20 [notice] 1#1: start worker process 23
+2025/08/27 18:14:20 [notice] 1#1: start worker process 24
+2025/08/27 18:14:20 [notice] 1#1: start worker process 25
+2025/08/27 18:14:20 [notice] 1#1: start worker process 26
+2025/08/27 18:14:20 [notice] 1#1: start worker process 27
+2025/08/27 18:14:20 [notice] 1#1: start worker process 28
+2025/08/27 18:15:41 [error] 23#23: *5 limiting requests, excess: 5.626 by zone "auth", client: 192.168.65.1, server: localhost, request: "POST /api/auth/refresh HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/dashboard"
+2025/08/27 18:15:41 [error] 24#24: *9 limiting requests, excess: 5.624 by zone "auth", client: 192.168.65.1, server: localhost, request: "POST /api/auth/refresh HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/dashboard"
+2025/08/27 18:26:37 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/08/27 18:26:37 [notice] 21#21: gracefully shutting down
+2025/08/27 18:26:37 [notice] 27#27: gracefully shutting down
+2025/08/27 18:26:37 [notice] 24#24: gracefully shutting down
+2025/08/27 18:26:37 [notice] 21#21: exiting
+2025/08/27 18:26:37 [notice] 23#23: gracefully shutting down
+2025/08/27 18:26:37 [notice] 23#23: exiting
+2025/08/27 18:26:37 [notice] 25#25: gracefully shutting down
+2025/08/27 18:26:37 [notice] 22#22: gracefully shutting down
+2025/08/27 18:26:37 [notice] 22#22: exiting
+2025/08/27 18:26:37 [notice] 26#26: gracefully shutting down
+2025/08/27 18:26:37 [notice] 24#24: exiting
+2025/08/27 18:26:37 [notice] 27#27: exiting
+2025/08/27 18:26:37 [notice] 28#28: gracefully shutting down
+2025/08/27 18:26:37 [notice] 25#25: exiting
+2025/08/27 18:26:37 [notice] 21#21: exit
+2025/08/27 18:26:37 [notice] 26#26: exiting
+2025/08/27 18:26:37 [notice] 23#23: exit
+2025/08/27 18:26:37 [notice] 22#22: exit
+2025/08/27 18:26:37 [notice] 24#24: exit
+2025/08/27 18:26:37 [notice] 26#26: exit
+2025/08/27 18:26:37 [notice] 28#28: exiting
+2025/08/27 18:26:37 [notice] 27#27: exit
+2025/08/27 18:26:37 [notice] 25#25: exit
+2025/08/27 18:26:37 [notice] 28#28: exit
+2025/08/27 18:26:37 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2025/08/27 18:26:37 [notice] 1#1: worker process 21 exited with code 0
+2025/08/27 18:26:37 [notice] 1#1: worker process 22 exited with code 0
+2025/08/27 18:26:37 [notice] 1#1: worker process 23 exited with code 0
+2025/08/27 18:26:37 [notice] 1#1: worker process 24 exited with code 0
+2025/08/27 18:26:37 [notice] 1#1: worker process 26 exited with code 0
+2025/08/27 18:26:37 [notice] 1#1: worker process 27 exited with code 0
+2025/08/27 18:26:37 [notice] 1#1: signal 29 (SIGIO) received
+2025/08/27 18:26:37 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2025/08/27 18:26:37 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2025/08/27 18:26:37 [notice] 1#1: worker process 25 exited with code 0
+2025/08/27 18:26:37 [notice] 1#1: signal 29 (SIGIO) received
+2025/08/27 18:26:37 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2025/08/27 18:26:37 [notice] 1#1: worker process 28 exited with code 0
+2025/08/27 18:26:37 [notice] 1#1: exit
+2025/08/27 18:32:39 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/default.conf:78
+2025/08/27 18:32:39 [notice] 1#1: using the "epoll" event method
+2025/08/27 18:32:39 [notice] 1#1: nginx/1.29.1
+2025/08/27 18:32:39 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/08/27 18:32:39 [notice] 1#1: OS: Linux 6.10.14-linuxkit
+2025/08/27 18:32:39 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/08/27 18:32:39 [notice] 1#1: start worker processes
+2025/08/27 18:32:39 [notice] 1#1: start worker process 21
+2025/08/27 18:32:39 [notice] 1#1: start worker process 22
+2025/08/27 18:32:39 [notice] 1#1: start worker process 23
+2025/08/27 18:32:39 [notice] 1#1: start worker process 24
+2025/08/27 18:32:39 [notice] 1#1: start worker process 25
+2025/08/27 18:32:39 [notice] 1#1: start worker process 26
+2025/08/27 18:32:39 [notice] 1#1: start worker process 27
+2025/08/27 18:32:39 [notice] 1#1: start worker process 28
+2025/08/27 18:42:08 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/08/27 18:42:08 [notice] 23#23: gracefully shutting down
+2025/08/27 18:42:08 [notice] 24#24: gracefully shutting down
+2025/08/27 18:42:08 [notice] 22#22: gracefully shutting down
+2025/08/27 18:42:08 [notice] 23#23: exiting
+2025/08/27 18:42:08 [notice] 26#26: gracefully shutting down
+2025/08/27 18:42:08 [notice] 21#21: gracefully shutting down
+2025/08/27 18:42:08 [notice] 27#27: gracefully shutting down
+2025/08/27 18:42:08 [notice] 24#24: exiting
+2025/08/27 18:42:08 [notice] 28#28: gracefully shutting down
+2025/08/27 18:42:08 [notice] 22#22: exiting
+2025/08/27 18:42:08 [notice] 25#25: gracefully shutting down
+2025/08/27 18:42:08 [notice] 27#27: exiting
+2025/08/27 18:42:08 [notice] 26#26: exiting
+2025/08/27 18:42:08 [notice] 21#21: exiting
+2025/08/27 18:42:08 [notice] 25#25: exiting
+2025/08/27 18:42:08 [notice] 27#27: exit
+2025/08/27 18:42:08 [notice] 24#24: exit
+2025/08/27 18:42:08 [notice] 26#26: exit
+2025/08/27 18:42:08 [notice] 22#22: exit
+2025/08/27 18:42:08 [notice] 28#28: exiting
+2025/08/27 18:42:08 [notice] 23#23: exit
+2025/08/27 18:42:08 [notice] 21#21: exit
+2025/08/27 18:42:08 [notice] 25#25: exit
+2025/08/27 18:42:08 [notice] 28#28: exit
+2025/08/27 18:42:08 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2025/08/27 18:42:08 [notice] 1#1: worker process 26 exited with code 0
+2025/08/27 18:42:08 [notice] 1#1: signal 29 (SIGIO) received
+2025/08/27 18:42:08 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2025/08/27 18:42:08 [notice] 1#1: worker process 27 exited with code 0
+2025/08/27 18:42:08 [notice] 1#1: signal 29 (SIGIO) received
+2025/08/27 18:42:08 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2025/08/27 18:42:08 [notice] 1#1: worker process 21 exited with code 0
+2025/08/27 18:42:08 [notice] 1#1: worker process 22 exited with code 0
+2025/08/27 18:42:08 [notice] 1#1: worker process 23 exited with code 0
+2025/08/27 18:42:08 [notice] 1#1: worker process 24 exited with code 0
+2025/08/27 18:42:08 [notice] 1#1: worker process 25 exited with code 0
+2025/08/27 18:42:08 [notice] 1#1: worker process 28 exited with code 0
+2025/08/27 18:42:08 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2025/08/27 18:42:08 [notice] 1#1: exit
+2025/08/27 18:45:09 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/default.conf:78
+2025/08/27 18:45:09 [notice] 1#1: using the "epoll" event method
+2025/08/27 18:45:09 [notice] 1#1: nginx/1.29.1
+2025/08/27 18:45:09 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/08/27 18:45:09 [notice] 1#1: OS: Linux 6.10.14-linuxkit
+2025/08/27 18:45:09 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/08/27 18:45:09 [notice] 1#1: start worker processes
+2025/08/27 18:45:09 [notice] 1#1: start worker process 21
+2025/08/27 18:45:09 [notice] 1#1: start worker process 22
+2025/08/27 18:45:09 [notice] 1#1: start worker process 23
+2025/08/27 18:45:09 [notice] 1#1: start worker process 24
+2025/08/27 18:45:09 [notice] 1#1: start worker process 25
+2025/08/27 18:45:09 [notice] 1#1: start worker process 26
+2025/08/27 18:45:09 [notice] 1#1: start worker process 27
+2025/08/27 18:45:09 [notice] 1#1: start worker process 28
+2025/08/27 20:21:07 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/08/27 20:21:07 [notice] 22#22: gracefully shutting down
+2025/08/27 20:21:07 [notice] 21#21: gracefully shutting down
+2025/08/27 20:21:07 [notice] 24#24: gracefully shutting down
+2025/08/27 20:21:07 [notice] 23#23: gracefully shutting down
+2025/08/27 20:21:07 [notice] 25#25: gracefully shutting down
+2025/08/27 20:21:07 [notice] 28#28: gracefully shutting down
+2025/08/27 20:21:07 [notice] 27#27: gracefully shutting down
+2025/08/27 20:21:07 [notice] 26#26: gracefully shutting down
+2025/08/27 20:21:07 [notice] 22#22: exiting
+2025/08/27 20:21:07 [notice] 23#23: exiting
+2025/08/27 20:21:07 [notice] 21#21: exiting
+2025/08/27 20:21:07 [notice] 24#24: exiting
+2025/08/27 20:21:07 [notice] 28#28: exiting
+2025/08/27 20:21:07 [notice] 27#27: exiting
+2025/08/27 20:21:07 [notice] 26#26: exiting
+2025/08/27 20:21:07 [notice] 25#25: exiting
+2025/08/27 20:21:07 [notice] 26#26: exit
+2025/08/27 20:21:07 [notice] 27#27: exit
+2025/08/27 20:21:07 [notice] 23#23: exit
+2025/08/27 20:21:07 [notice] 24#24: exit
+2025/08/27 20:21:07 [notice] 22#22: exit
+2025/08/27 20:21:07 [notice] 28#28: exit
+2025/08/27 20:21:07 [notice] 25#25: exit
+2025/08/27 20:21:07 [notice] 21#21: exit
+2025/08/27 20:21:07 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2025/08/27 20:21:07 [notice] 1#1: worker process 21 exited with code 0
+2025/08/27 20:21:07 [notice] 1#1: worker process 22 exited with code 0
+2025/08/27 20:21:07 [notice] 1#1: worker process 23 exited with code 0
+2025/08/27 20:21:07 [notice] 1#1: worker process 24 exited with code 0
+2025/08/27 20:21:07 [notice] 1#1: worker process 25 exited with code 0
+2025/08/27 20:21:07 [notice] 1#1: worker process 26 exited with code 0
+2025/08/27 20:21:07 [notice] 1#1: worker process 27 exited with code 0
+2025/08/27 20:21:07 [notice] 1#1: worker process 28 exited with code 0
+2025/08/27 20:21:07 [notice] 1#1: exit
+2025/08/27 20:21:30 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/default.conf:78
+2025/08/27 20:21:30 [notice] 1#1: using the "epoll" event method
+2025/08/27 20:21:30 [notice] 1#1: nginx/1.29.1
+2025/08/27 20:21:30 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/08/27 20:21:30 [notice] 1#1: OS: Linux 6.10.14-linuxkit
+2025/08/27 20:21:30 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/08/27 20:21:30 [notice] 1#1: start worker processes
+2025/08/27 20:21:30 [notice] 1#1: start worker process 21
+2025/08/27 20:21:30 [notice] 1#1: start worker process 22
+2025/08/27 20:21:30 [notice] 1#1: start worker process 23
+2025/08/27 20:21:30 [notice] 1#1: start worker process 24
+2025/08/27 20:21:30 [notice] 1#1: start worker process 25
+2025/08/27 20:21:30 [notice] 1#1: start worker process 26
+2025/08/27 20:21:30 [notice] 1#1: start worker process 27
+2025/08/27 20:21:30 [notice] 1#1: start worker process 28
+2025/08/28 07:40:11 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/default.conf:78
+2025/08/28 07:40:11 [notice] 1#1: using the "epoll" event method
+2025/08/28 07:40:11 [notice] 1#1: nginx/1.29.1
+2025/08/28 07:40:11 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/08/28 07:40:11 [notice] 1#1: OS: Linux 6.10.14-linuxkit
+2025/08/28 07:40:11 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/08/28 07:40:11 [notice] 1#1: start worker processes
+2025/08/28 07:40:11 [notice] 1#1: start worker process 21
+2025/08/28 07:40:11 [notice] 1#1: start worker process 22
+2025/08/28 07:40:11 [notice] 1#1: start worker process 23
+2025/08/28 07:40:11 [notice] 1#1: start worker process 24
+2025/08/28 07:40:11 [notice] 1#1: start worker process 25
+2025/08/28 07:40:11 [notice] 1#1: start worker process 26
+2025/08/28 07:40:11 [notice] 1#1: start worker process 27
+2025/08/28 07:40:11 [notice] 1#1: start worker process 28
+2025/08/28 11:44:28 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/08/28 11:44:28 [notice] 24#24: gracefully shutting down
+2025/08/28 11:44:28 [notice] 23#23: gracefully shutting down
+2025/08/28 11:44:28 [notice] 21#21: gracefully shutting down
+2025/08/28 11:44:28 [notice] 25#25: gracefully shutting down
+2025/08/28 11:44:28 [notice] 27#27: gracefully shutting down
+2025/08/28 11:44:28 [notice] 23#23: exiting
+2025/08/28 11:44:28 [notice] 26#26: gracefully shutting down
+2025/08/28 11:44:28 [notice] 22#22: gracefully shutting down
+2025/08/28 11:44:28 [notice] 27#27: exiting
+2025/08/28 11:44:28 [notice] 28#28: gracefully shutting down
+2025/08/28 11:44:28 [notice] 26#26: exiting
+2025/08/28 11:44:28 [notice] 25#25: exiting
+2025/08/28 11:44:28 [notice] 24#24: exiting
+2025/08/28 11:44:28 [notice] 21#21: exiting
+2025/08/28 11:44:28 [notice] 28#28: exiting
+2025/08/28 11:44:28 [notice] 22#22: exiting
+2025/08/28 11:44:28 [notice] 28#28: exit
+2025/08/28 11:44:28 [notice] 26#26: exit
+2025/08/28 11:44:28 [notice] 25#25: exit
+2025/08/28 11:44:28 [notice] 22#22: exit
+2025/08/28 11:44:28 [notice] 21#21: exit
+2025/08/28 11:44:28 [notice] 24#24: exit
+2025/08/28 11:44:28 [notice] 23#23: exit
+2025/08/28 11:44:28 [notice] 27#27: exit
+2025/08/28 11:44:28 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2025/08/28 11:44:28 [notice] 1#1: worker process 22 exited with code 0
+2025/08/28 11:44:28 [notice] 1#1: worker process 23 exited with code 0
+2025/08/28 11:44:28 [notice] 1#1: worker process 24 exited with code 0
+2025/08/28 11:44:28 [notice] 1#1: worker process 25 exited with code 0
+2025/08/28 11:44:28 [notice] 1#1: worker process 26 exited with code 0
+2025/08/28 11:44:28 [notice] 1#1: worker process 21 exited with code 0
+2025/08/28 11:44:28 [notice] 1#1: worker process 27 exited with code 0
+2025/08/28 11:44:28 [notice] 1#1: worker process 28 exited with code 0
+2025/08/28 11:44:28 [notice] 1#1: exit
+2025/08/28 11:44:30 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/default.conf:78
+2025/08/28 11:44:30 [notice] 1#1: using the "epoll" event method
+2025/08/28 11:44:30 [notice] 1#1: nginx/1.29.1
+2025/08/28 11:44:30 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/08/28 11:44:30 [notice] 1#1: OS: Linux 6.10.14-linuxkit
+2025/08/28 11:44:30 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/08/28 11:44:30 [notice] 1#1: start worker processes
+2025/08/28 11:44:30 [notice] 1#1: start worker process 21
+2025/08/28 11:44:30 [notice] 1#1: start worker process 22
+2025/08/28 11:44:30 [notice] 1#1: start worker process 23
+2025/08/28 11:44:30 [notice] 1#1: start worker process 24
+2025/08/28 11:44:30 [notice] 1#1: start worker process 25
+2025/08/28 11:44:30 [notice] 1#1: start worker process 26
+2025/08/28 11:44:30 [notice] 1#1: start worker process 27
+2025/08/28 11:44:30 [notice] 1#1: start worker process 28
+2025/08/28 12:56:23 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/08/28 12:56:23 [notice] 25#25: gracefully shutting down
+2025/08/28 12:56:23 [notice] 22#22: gracefully shutting down
+2025/08/28 12:56:23 [notice] 26#26: gracefully shutting down
+2025/08/28 12:56:23 [notice] 21#21: gracefully shutting down
+2025/08/28 12:56:23 [notice] 24#24: gracefully shutting down
+2025/08/28 12:56:23 [notice] 23#23: gracefully shutting down
+2025/08/28 12:56:23 [notice] 27#27: gracefully shutting down
+2025/08/28 12:56:23 [notice] 28#28: gracefully shutting down
+2025/08/28 12:56:23 [notice] 26#26: exiting
+2025/08/28 12:56:23 [notice] 25#25: exiting
+2025/08/28 12:56:23 [notice] 22#22: exiting
+2025/08/28 12:56:23 [notice] 27#27: exiting
+2025/08/28 12:56:23 [notice] 21#21: exiting
+2025/08/28 12:56:23 [notice] 24#24: exiting
+2025/08/28 12:56:23 [notice] 23#23: exiting
+2025/08/28 12:56:23 [notice] 28#28: exiting
+2025/08/28 12:56:23 [notice] 25#25: exit
+2025/08/28 12:56:23 [notice] 27#27: exit
+2025/08/28 12:56:23 [notice] 28#28: exit
+2025/08/28 12:56:23 [notice] 22#22: exit
+2025/08/28 12:56:23 [notice] 24#24: exit
+2025/08/28 12:56:23 [notice] 21#21: exit
+2025/08/28 12:56:23 [notice] 23#23: exit
+2025/08/28 12:56:23 [notice] 26#26: exit
+2025/08/28 12:56:24 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2025/08/28 12:56:24 [notice] 1#1: worker process 26 exited with code 0
+2025/08/28 12:56:24 [notice] 1#1: worker process 23 exited with code 0
+2025/08/28 12:56:24 [notice] 1#1: worker process 24 exited with code 0
+2025/08/28 12:56:24 [notice] 1#1: worker process 25 exited with code 0
+2025/08/28 12:56:24 [notice] 1#1: worker process 21 exited with code 0
+2025/08/28 12:56:24 [notice] 1#1: worker process 22 exited with code 0
+2025/08/28 12:56:24 [notice] 1#1: signal 29 (SIGIO) received
+2025/08/28 12:56:24 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2025/08/28 12:56:24 [notice] 1#1: worker process 28 exited with code 0
+2025/08/28 12:56:24 [notice] 1#1: signal 29 (SIGIO) received
+2025/08/28 12:56:24 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2025/08/28 12:56:24 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2025/08/28 12:56:24 [notice] 1#1: worker process 27 exited with code 0
+2025/08/28 12:56:24 [notice] 1#1: exit
+2025/08/29 19:05:46 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/default.conf:78
+2025/08/29 19:05:46 [notice] 1#1: using the "epoll" event method
+2025/08/29 19:05:46 [notice] 1#1: nginx/1.29.1
+2025/08/29 19:05:46 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/08/29 19:05:46 [notice] 1#1: OS: Linux 6.10.14-linuxkit
+2025/08/29 19:05:46 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/08/29 19:05:46 [notice] 1#1: start worker processes
+2025/08/29 19:05:46 [notice] 1#1: start worker process 21
+2025/08/29 19:05:46 [notice] 1#1: start worker process 22
+2025/08/29 19:05:46 [notice] 1#1: start worker process 23
+2025/08/29 19:05:46 [notice] 1#1: start worker process 24
+2025/08/29 19:05:46 [notice] 1#1: start worker process 25
+2025/08/29 19:05:46 [notice] 1#1: start worker process 26
+2025/08/29 19:05:46 [notice] 1#1: start worker process 27
+2025/08/29 19:05:46 [notice] 1#1: start worker process 28
+2025/08/30 11:03:23 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/08/30 11:03:23 [notice] 27#27: gracefully shutting down
+2025/08/30 11:03:23 [notice] 21#21: gracefully shutting down
+2025/08/30 11:03:23 [notice] 22#22: gracefully shutting down
+2025/08/30 11:03:23 [notice] 26#26: gracefully shutting down
+2025/08/30 11:03:23 [notice] 27#27: exiting
+2025/08/30 11:03:23 [notice] 24#24: gracefully shutting down
+2025/08/30 11:03:23 [notice] 25#25: gracefully shutting down
+2025/08/30 11:03:23 [notice] 21#21: exiting
+2025/08/30 11:03:23 [notice] 28#28: gracefully shutting down
+2025/08/30 11:03:23 [notice] 22#22: exiting
+2025/08/30 11:03:23 [notice] 23#23: gracefully shutting down
+2025/08/30 11:03:23 [notice] 26#26: exiting
+2025/08/30 11:03:23 [notice] 24#24: exiting
+2025/08/30 11:03:23 [notice] 23#23: exiting
+2025/08/30 11:03:23 [notice] 25#25: exiting
+2025/08/30 11:03:23 [notice] 28#28: exiting
+2025/08/30 11:03:23 [notice] 23#23: exit
+2025/08/30 11:03:23 [notice] 25#25: exit
+2025/08/30 11:03:23 [notice] 22#22: exit
+2025/08/30 11:03:23 [notice] 26#26: exit
+2025/08/30 11:03:23 [notice] 21#21: exit
+2025/08/30 11:03:23 [notice] 28#28: exit
+2025/08/30 11:03:23 [notice] 27#27: exit
+2025/08/30 11:03:23 [notice] 24#24: exit
+2025/08/30 11:03:23 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2025/08/30 11:03:23 [notice] 1#1: worker process 21 exited with code 0
+2025/08/30 11:03:23 [notice] 1#1: worker process 22 exited with code 0
+2025/08/30 11:03:23 [notice] 1#1: worker process 23 exited with code 0
+2025/08/30 11:03:23 [notice] 1#1: worker process 25 exited with code 0
+2025/08/30 11:03:23 [notice] 1#1: worker process 26 exited with code 0
+2025/08/30 11:03:23 [notice] 1#1: worker process 27 exited with code 0
+2025/08/30 11:03:23 [notice] 1#1: worker process 28 exited with code 0
+2025/08/30 11:03:23 [notice] 1#1: signal 29 (SIGIO) received
+2025/08/30 11:03:23 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2025/08/30 11:03:23 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2025/08/30 11:03:23 [notice] 1#1: worker process 24 exited with code 0
+2025/08/30 11:03:23 [notice] 1#1: exit
+2025/08/31 10:01:44 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/default.conf:78
+2025/08/31 10:01:44 [notice] 1#1: using the "epoll" event method
+2025/08/31 10:01:44 [notice] 1#1: nginx/1.29.1
+2025/08/31 10:01:44 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/08/31 10:01:44 [notice] 1#1: OS: Linux 6.10.14-linuxkit
+2025/08/31 10:01:44 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/08/31 10:01:44 [notice] 1#1: start worker processes
+2025/08/31 10:01:44 [notice] 1#1: start worker process 21
+2025/08/31 10:01:44 [notice] 1#1: start worker process 22
+2025/08/31 10:01:44 [notice] 1#1: start worker process 23
+2025/08/31 10:01:44 [notice] 1#1: start worker process 24
+2025/08/31 10:01:44 [notice] 1#1: start worker process 25
+2025/08/31 10:01:44 [notice] 1#1: start worker process 26
+2025/08/31 10:01:44 [notice] 1#1: start worker process 27
+2025/08/31 10:01:44 [notice] 1#1: start worker process 28
+2025/08/31 12:45:36 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/08/31 12:45:36 [notice] 22#22: gracefully shutting down
+2025/08/31 12:45:36 [notice] 22#22: exiting
+2025/08/31 12:45:36 [notice] 21#21: gracefully shutting down
+2025/08/31 12:45:36 [notice] 21#21: exiting
+2025/08/31 12:45:36 [notice] 26#26: gracefully shutting down
+2025/08/31 12:45:36 [notice] 26#26: exiting
+2025/08/31 12:45:36 [notice] 25#25: gracefully shutting down
+2025/08/31 12:45:36 [notice] 24#24: gracefully shutting down
+2025/08/31 12:45:36 [notice] 24#24: exiting
+2025/08/31 12:45:36 [notice] 27#27: gracefully shutting down
+2025/08/31 12:45:36 [notice] 23#23: gracefully shutting down
+2025/08/31 12:45:36 [notice] 23#23: exiting
+2025/08/31 12:45:36 [notice] 28#28: gracefully shutting down
+2025/08/31 12:45:36 [notice] 25#25: exiting
+2025/08/31 12:45:36 [notice] 21#21: exit
+2025/08/31 12:45:36 [notice] 26#26: exit
+2025/08/31 12:45:36 [notice] 22#22: exit
+2025/08/31 12:45:36 [notice] 24#24: exit
+2025/08/31 12:45:36 [notice] 27#27: exiting
+2025/08/31 12:45:36 [notice] 28#28: exiting
+2025/08/31 12:45:36 [notice] 23#23: exit
+2025/08/31 12:45:36 [notice] 25#25: exit
+2025/08/31 12:45:36 [notice] 27#27: exit
+2025/08/31 12:45:36 [notice] 28#28: exit
+2025/08/31 12:45:36 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2025/08/31 12:45:36 [notice] 1#1: worker process 21 exited with code 0
+2025/08/31 12:45:36 [notice] 1#1: worker process 24 exited with code 0
+2025/08/31 12:45:36 [notice] 1#1: worker process 25 exited with code 0
+2025/08/31 12:45:36 [notice] 1#1: signal 29 (SIGIO) received
+2025/08/31 12:45:36 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2025/08/31 12:45:36 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2025/08/31 12:45:36 [notice] 1#1: worker process 22 exited with code 0
+2025/08/31 12:45:36 [notice] 1#1: worker process 23 exited with code 0
+2025/08/31 12:45:36 [notice] 1#1: worker process 26 exited with code 0
+2025/08/31 12:45:36 [notice] 1#1: worker process 27 exited with code 0
+2025/08/31 12:45:36 [notice] 1#1: worker process 28 exited with code 0
+2025/08/31 12:45:36 [notice] 1#1: exit
+2025/08/31 12:47:08 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/default.conf:78
+2025/08/31 12:47:08 [notice] 1#1: using the "epoll" event method
+2025/08/31 12:47:08 [notice] 1#1: nginx/1.29.1
+2025/08/31 12:47:08 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/08/31 12:47:08 [notice] 1#1: OS: Linux 6.10.14-linuxkit
+2025/08/31 12:47:08 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/08/31 12:47:08 [notice] 1#1: start worker processes
+2025/08/31 12:47:08 [notice] 1#1: start worker process 21
+2025/08/31 12:47:08 [notice] 1#1: start worker process 22
+2025/08/31 12:47:08 [notice] 1#1: start worker process 23
+2025/08/31 12:47:08 [notice] 1#1: start worker process 24
+2025/08/31 12:47:08 [notice] 1#1: start worker process 25
+2025/08/31 12:47:08 [notice] 1#1: start worker process 26
+2025/08/31 12:47:08 [notice] 1#1: start worker process 27
+2025/08/31 12:47:08 [notice] 1#1: start worker process 28
+2025/08/31 12:51:06 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/08/31 12:51:06 [notice] 21#21: gracefully shutting down
+2025/08/31 12:51:06 [notice] 21#21: exiting
+2025/08/31 12:51:06 [notice] 22#22: gracefully shutting down
+2025/08/31 12:51:06 [notice] 22#22: exiting
+2025/08/31 12:51:06 [notice] 24#24: gracefully shutting down
+2025/08/31 12:51:06 [notice] 27#27: gracefully shutting down
+2025/08/31 12:51:06 [notice] 27#27: exiting
+2025/08/31 12:51:06 [notice] 28#28: gracefully shutting down
+2025/08/31 12:51:06 [notice] 26#26: gracefully shutting down
+2025/08/31 12:51:06 [notice] 25#25: gracefully shutting down
+2025/08/31 12:51:06 [notice] 25#25: exiting
+2025/08/31 12:51:06 [notice] 23#23: gracefully shutting down
+2025/08/31 12:51:06 [notice] 24#24: exiting
+2025/08/31 12:51:06 [notice] 21#21: exit
+2025/08/31 12:51:06 [notice] 22#22: exit
+2025/08/31 12:51:06 [notice] 27#27: exit
+2025/08/31 12:51:06 [notice] 28#28: exiting
+2025/08/31 12:51:06 [notice] 26#26: exiting
+2025/08/31 12:51:06 [notice] 23#23: exiting
+2025/08/31 12:51:06 [notice] 25#25: exit
+2025/08/31 12:51:06 [notice] 24#24: exit
+2025/08/31 12:51:06 [notice] 28#28: exit
+2025/08/31 12:51:06 [notice] 26#26: exit
+2025/08/31 12:51:06 [notice] 23#23: exit
+2025/08/31 12:51:06 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2025/08/31 12:51:06 [notice] 1#1: worker process 22 exited with code 0
+2025/08/31 12:51:06 [notice] 1#1: signal 29 (SIGIO) received
+2025/08/31 12:51:06 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2025/08/31 12:51:06 [notice] 1#1: worker process 21 exited with code 0
+2025/08/31 12:51:06 [notice] 1#1: signal 29 (SIGIO) received
+2025/08/31 12:51:06 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2025/08/31 12:51:06 [notice] 1#1: worker process 23 exited with code 0
+2025/08/31 12:51:06 [notice] 1#1: worker process 24 exited with code 0
+2025/08/31 12:51:06 [notice] 1#1: worker process 25 exited with code 0
+2025/08/31 12:51:06 [notice] 1#1: worker process 26 exited with code 0
+2025/08/31 12:51:06 [notice] 1#1: worker process 27 exited with code 0
+2025/08/31 12:51:06 [notice] 1#1: worker process 28 exited with code 0
+2025/08/31 12:51:06 [notice] 1#1: exit
+2025/08/31 12:51:55 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/default.conf:78
+2025/08/31 12:51:55 [notice] 1#1: using the "epoll" event method
+2025/08/31 12:51:55 [notice] 1#1: nginx/1.29.1
+2025/08/31 12:51:55 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/08/31 12:51:55 [notice] 1#1: OS: Linux 6.10.14-linuxkit
+2025/08/31 12:51:55 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/08/31 12:51:55 [notice] 1#1: start worker processes
+2025/08/31 12:51:55 [notice] 1#1: start worker process 21
+2025/08/31 12:51:55 [notice] 1#1: start worker process 22
+2025/08/31 12:51:55 [notice] 1#1: start worker process 23
+2025/08/31 12:51:55 [notice] 1#1: start worker process 24
+2025/08/31 12:51:55 [notice] 1#1: start worker process 25
+2025/08/31 12:51:55 [notice] 1#1: start worker process 26
+2025/08/31 12:51:55 [notice] 1#1: start worker process 27
+2025/08/31 12:51:55 [notice] 1#1: start worker process 28
+2025/08/31 13:48:21 [error] 21#21: *53 limiting requests, excess: 5.264 by zone "auth", client: 192.168.65.1, server: localhost, request: "POST /api/auth/refresh HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:3000/"
+2025/08/31 13:48:21 [error] 21#21: *54 limiting requests, excess: 5.262 by zone "auth", client: 192.168.65.1, server: localhost, request: "POST /api/auth/refresh HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:3000/"
+2025/08/31 17:51:42 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/08/31 17:51:42 [notice] 24#24: gracefully shutting down
+2025/08/31 17:51:42 [notice] 22#22: gracefully shutting down
+2025/08/31 17:51:42 [notice] 25#25: gracefully shutting down
+2025/08/31 17:51:42 [notice] 23#23: gracefully shutting down
+2025/08/31 17:51:42 [notice] 21#21: gracefully shutting down
+2025/08/31 17:51:42 [notice] 25#25: exiting
+2025/08/31 17:51:42 [notice] 26#26: gracefully shutting down
+2025/08/31 17:51:42 [notice] 28#28: gracefully shutting down
+2025/08/31 17:51:42 [notice] 27#27: gracefully shutting down
+2025/08/31 17:51:42 [notice] 24#24: exiting
+2025/08/31 17:51:42 [notice] 26#26: exiting
+2025/08/31 17:51:42 [notice] 21#21: exiting
+2025/08/31 17:51:42 [notice] 27#27: exiting
+2025/08/31 17:51:42 [notice] 28#28: exiting
+2025/08/31 17:51:42 [notice] 22#22: exiting
+2025/08/31 17:51:42 [notice] 23#23: exiting
+2025/08/31 17:51:42 [notice] 21#21: exit
+2025/08/31 17:51:42 [notice] 26#26: exit
+2025/08/31 17:51:42 [notice] 27#27: exit
+2025/08/31 17:51:42 [notice] 28#28: exit
+2025/08/31 17:51:42 [notice] 25#25: exit
+2025/08/31 17:51:42 [notice] 22#22: exit
+2025/08/31 17:51:42 [notice] 23#23: exit
+2025/08/31 17:51:42 [notice] 24#24: exit
+2025/08/31 17:51:42 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2025/08/31 17:51:42 [notice] 1#1: worker process 21 exited with code 0
+2025/08/31 17:51:42 [notice] 1#1: worker process 22 exited with code 0
+2025/08/31 17:51:42 [notice] 1#1: worker process 23 exited with code 0
+2025/08/31 17:51:42 [notice] 1#1: worker process 25 exited with code 0
+2025/08/31 17:51:42 [notice] 1#1: worker process 28 exited with code 0
+2025/08/31 17:51:42 [notice] 1#1: signal 29 (SIGIO) received
+2025/08/31 17:51:42 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2025/08/31 17:51:42 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2025/08/31 17:51:42 [notice] 1#1: worker process 26 exited with code 0
+2025/08/31 17:51:42 [notice] 1#1: worker process 27 exited with code 0
+2025/08/31 17:51:42 [notice] 1#1: worker process 24 exited with code 0
+2025/08/31 17:51:42 [notice] 1#1: exit
+2025/08/31 17:51:43 [emerg] 1#1: "proxy_pass" directive is not allowed here in /etc/nginx/conf.d/default.conf:5
+2025/08/31 17:51:44 [emerg] 1#1: "proxy_pass" directive is not allowed here in /etc/nginx/conf.d/default.conf:5
+2025/08/31 17:51:45 [emerg] 1#1: "proxy_pass" directive is not allowed here in /etc/nginx/conf.d/default.conf:5
+2025/08/31 17:51:47 [emerg] 1#1: "proxy_pass" directive is not allowed here in /etc/nginx/conf.d/default.conf:5
+2025/08/31 17:51:48 [emerg] 1#1: "proxy_pass" directive is not allowed here in /etc/nginx/conf.d/default.conf:5
+2025/08/31 17:51:50 [emerg] 1#1: "proxy_pass" directive is not allowed here in /etc/nginx/conf.d/default.conf:5
+2025/08/31 17:51:54 [emerg] 1#1: "proxy_pass" directive is not allowed here in /etc/nginx/conf.d/default.conf:5
+2025/08/31 17:52:01 [emerg] 1#1: "proxy_pass" directive is not allowed here in /etc/nginx/conf.d/default.conf:5
+2025/08/31 17:52:14 [emerg] 1#1: "proxy_pass" directive is not allowed here in /etc/nginx/conf.d/default.conf:5
+2025/08/31 17:52:40 [emerg] 1#1: "proxy_pass" directive is not allowed here in /etc/nginx/conf.d/default.conf:5
+2025/08/31 17:53:32 [emerg] 1#1: "proxy_pass" directive is not allowed here in /etc/nginx/conf.d/default.conf:5
+2025/08/31 17:54:32 [emerg] 1#1: "proxy_pass" directive is not allowed here in /etc/nginx/conf.d/default.conf:5
+2025/08/31 17:55:32 [emerg] 1#1: "proxy_pass" directive is not allowed here in /etc/nginx/conf.d/default.conf:5
+2025/08/31 17:56:33 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/default.conf:78
+2025/08/31 17:56:33 [notice] 1#1: using the "epoll" event method
+2025/08/31 17:56:33 [notice] 1#1: nginx/1.29.1
+2025/08/31 17:56:33 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/08/31 17:56:33 [notice] 1#1: OS: Linux 6.10.14-linuxkit
+2025/08/31 17:56:33 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/08/31 17:56:33 [notice] 1#1: start worker processes
+2025/08/31 17:56:33 [notice] 1#1: start worker process 21
+2025/08/31 17:56:33 [notice] 1#1: start worker process 22
+2025/08/31 17:56:33 [notice] 1#1: start worker process 23
+2025/08/31 17:56:33 [notice] 1#1: start worker process 24
+2025/08/31 17:56:33 [notice] 1#1: start worker process 25
+2025/08/31 17:56:33 [notice] 1#1: start worker process 26
+2025/08/31 17:56:33 [notice] 1#1: start worker process 27
+2025/08/31 17:56:33 [notice] 1#1: start worker process 28
+2025/08/31 17:57:44 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/08/31 17:57:44 [notice] 21#21: gracefully shutting down
+2025/08/31 17:57:44 [notice] 22#22: gracefully shutting down
+2025/08/31 17:57:44 [notice] 23#23: gracefully shutting down
+2025/08/31 17:57:44 [notice] 23#23: exiting
+2025/08/31 17:57:44 [notice] 25#25: gracefully shutting down
+2025/08/31 17:57:44 [notice] 25#25: exiting
+2025/08/31 17:57:44 [notice] 24#24: gracefully shutting down
+2025/08/31 17:57:44 [notice] 24#24: exiting
+2025/08/31 17:57:44 [notice] 26#26: gracefully shutting down
+2025/08/31 17:57:44 [notice] 26#26: exiting
+2025/08/31 17:57:44 [notice] 27#27: gracefully shutting down
+2025/08/31 17:57:44 [notice] 27#27: exiting
+2025/08/31 17:57:44 [notice] 28#28: gracefully shutting down
+2025/08/31 17:57:44 [notice] 21#21: exiting
+2025/08/31 17:57:44 [notice] 27#27: exit
+2025/08/31 17:57:44 [notice] 22#22: exiting
+2025/08/31 17:57:44 [notice] 23#23: exit
+2025/08/31 17:57:44 [notice] 25#25: exit
+2025/08/31 17:57:44 [notice] 24#24: exit
+2025/08/31 17:57:44 [notice] 26#26: exit
+2025/08/31 17:57:44 [notice] 28#28: exiting
+2025/08/31 17:57:44 [notice] 21#21: exit
+2025/08/31 17:57:44 [notice] 22#22: exit
+2025/08/31 17:57:44 [notice] 28#28: exit
+2025/08/31 17:57:44 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2025/08/31 17:57:44 [notice] 1#1: worker process 21 exited with code 0
+2025/08/31 17:57:44 [notice] 1#1: worker process 22 exited with code 0
+2025/08/31 17:57:44 [notice] 1#1: worker process 23 exited with code 0
+2025/08/31 17:57:44 [notice] 1#1: worker process 24 exited with code 0
+2025/08/31 17:57:44 [notice] 1#1: worker process 25 exited with code 0
+2025/08/31 17:57:44 [notice] 1#1: worker process 26 exited with code 0
+2025/08/31 17:57:44 [notice] 1#1: worker process 27 exited with code 0
+2025/08/31 17:57:44 [notice] 1#1: worker process 28 exited with code 0
+2025/08/31 17:57:44 [notice] 1#1: exit
+2025/08/31 17:57:45 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/conf.d/default.conf:2
+2025/08/31 17:57:45 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/conf.d/default.conf:2
+2025/08/31 17:57:46 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/conf.d/default.conf:2
+2025/08/31 17:57:47 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/conf.d/default.conf:2
+2025/08/31 17:57:49 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/conf.d/default.conf:2
+2025/08/31 17:57:51 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/conf.d/default.conf:2
+2025/08/31 17:57:54 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/conf.d/default.conf:2
+2025/08/31 17:58:01 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/conf.d/default.conf:2
+2025/08/31 17:58:15 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/conf.d/default.conf:2
+2025/08/31 17:58:41 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/conf.d/default.conf:2
+2025/08/31 17:59:32 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/conf.d/default.conf:2
+2025/08/31 18:00:33 [emerg] 1#1: unknown directive "proxy_Set_header" in /etc/nginx/conf.d/default.conf:44
+2025/08/31 18:00:38 [emerg] 1#1: unknown directive "proxy_Set_header" in /etc/nginx/conf.d/default.conf:44
+2025/08/31 18:00:39 [emerg] 1#1: unknown directive "proxy_Set_header" in /etc/nginx/conf.d/default.conf:44
+2025/08/31 18:00:40 [emerg] 1#1: unknown directive "proxy_Set_header" in /etc/nginx/conf.d/default.conf:44
+2025/08/31 18:00:41 [emerg] 1#1: unknown directive "proxy_Set_header" in /etc/nginx/conf.d/default.conf:44
+2025/08/31 18:00:42 [emerg] 1#1: unknown directive "proxy_Set_header" in /etc/nginx/conf.d/default.conf:44
+2025/08/31 18:00:44 [emerg] 1#1: unknown directive "proxy_Set_header" in /etc/nginx/conf.d/default.conf:44
+2025/08/31 18:00:48 [emerg] 1#1: unknown directive "proxy_Set_header" in /etc/nginx/conf.d/default.conf:44
+2025/08/31 18:00:55 [emerg] 1#1: unknown directive "proxy_Set_header" in /etc/nginx/conf.d/default.conf:44
+2025/08/31 18:01:08 [emerg] 1#1: unknown directive "proxy_Set_header" in /etc/nginx/conf.d/default.conf:44
+2025/08/31 18:01:34 [emerg] 1#1: unknown directive "proxy_Set_header" in /etc/nginx/conf.d/default.conf:44
+2025/08/31 18:02:26 [emerg] 1#1: unknown directive "proxy_Set_header" in /etc/nginx/conf.d/default.conf:44
+2025/08/31 18:03:26 [emerg] 1#1: unknown directive "s" in /etc/nginx/conf.d/default.conf:2
+2025/08/31 18:04:27 [emerg] 1#1: unknown directive "s" in /etc/nginx/conf.d/default.conf:2
+2025/08/31 18:05:27 [emerg] 1#1: unknown directive "s" in /etc/nginx/conf.d/default.conf:2
+2025/08/31 18:06:28 [notice] 1#1: using the "epoll" event method
+2025/08/31 18:06:28 [notice] 1#1: nginx/1.29.1
+2025/08/31 18:06:28 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/08/31 18:06:28 [notice] 1#1: OS: Linux 6.10.14-linuxkit
+2025/08/31 18:06:28 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/08/31 18:06:28 [notice] 1#1: start worker processes
+2025/08/31 18:06:28 [notice] 1#1: start worker process 20
+2025/08/31 18:06:28 [notice] 1#1: start worker process 21
+2025/08/31 18:06:28 [notice] 1#1: start worker process 22
+2025/08/31 18:06:28 [notice] 1#1: start worker process 23
+2025/08/31 18:06:28 [notice] 1#1: start worker process 24
+2025/08/31 18:06:28 [notice] 1#1: start worker process 25
+2025/08/31 18:06:28 [notice] 1#1: start worker process 26
+2025/08/31 18:06:28 [notice] 1#1: start worker process 27
+2025/08/31 18:08:13 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/08/31 18:08:13 [notice] 20#20: gracefully shutting down
+2025/08/31 18:08:13 [notice] 20#20: exiting
+2025/08/31 18:08:13 [notice] 21#21: gracefully shutting down
+2025/08/31 18:08:13 [notice] 21#21: exiting
+2025/08/31 18:08:13 [notice] 22#22: gracefully shutting down
+2025/08/31 18:08:13 [notice] 22#22: exiting
+2025/08/31 18:08:13 [notice] 24#24: gracefully shutting down
+2025/08/31 18:08:13 [notice] 22#22: exit
+2025/08/31 18:08:13 [notice] 23#23: gracefully shutting down
+2025/08/31 18:08:13 [notice] 23#23: exiting
+2025/08/31 18:08:13 [notice] 25#25: gracefully shutting down
+2025/08/31 18:08:13 [notice] 25#25: exiting
+2025/08/31 18:08:13 [notice] 26#26: gracefully shutting down
+2025/08/31 18:08:13 [notice] 26#26: exiting
+2025/08/31 18:08:13 [notice] 27#27: gracefully shutting down
+2025/08/31 18:08:13 [notice] 26#26: exit
+2025/08/31 18:08:13 [notice] 20#20: exit
+2025/08/31 18:08:13 [notice] 21#21: exit
+2025/08/31 18:08:13 [notice] 24#24: exiting
+2025/08/31 18:08:13 [notice] 23#23: exit
+2025/08/31 18:08:13 [notice] 24#24: exit
+2025/08/31 18:08:13 [notice] 25#25: exit
+2025/08/31 18:08:13 [notice] 27#27: exiting
+2025/08/31 18:08:13 [notice] 27#27: exit
+2025/08/31 18:08:13 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2025/08/31 18:08:13 [notice] 1#1: worker process 22 exited with code 0
+2025/08/31 18:08:13 [notice] 1#1: signal 29 (SIGIO) received
+2025/08/31 18:08:13 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2025/08/31 18:08:13 [notice] 1#1: worker process 20 exited with code 0
+2025/08/31 18:08:13 [notice] 1#1: worker process 21 exited with code 0
+2025/08/31 18:08:13 [notice] 1#1: worker process 23 exited with code 0
+2025/08/31 18:08:13 [notice] 1#1: worker process 24 exited with code 0
+2025/08/31 18:08:13 [notice] 1#1: worker process 25 exited with code 0
+2025/08/31 18:08:13 [notice] 1#1: worker process 26 exited with code 0
+2025/08/31 18:08:13 [notice] 1#1: worker process 27 exited with code 0
+2025/08/31 18:08:13 [notice] 1#1: exit
+2025/08/31 18:08:13 [notice] 1#1: using the "epoll" event method
+2025/08/31 18:08:13 [notice] 1#1: nginx/1.29.1
+2025/08/31 18:08:13 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/08/31 18:08:13 [notice] 1#1: OS: Linux 6.10.14-linuxkit
+2025/08/31 18:08:13 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/08/31 18:08:13 [notice] 1#1: start worker processes
+2025/08/31 18:08:13 [notice] 1#1: start worker process 21
+2025/08/31 18:08:13 [notice] 1#1: start worker process 22
+2025/08/31 18:08:13 [notice] 1#1: start worker process 23
+2025/08/31 18:08:13 [notice] 1#1: start worker process 24
+2025/08/31 18:08:13 [notice] 1#1: start worker process 25
+2025/08/31 18:08:13 [notice] 1#1: start worker process 26
+2025/08/31 18:08:13 [notice] 1#1: start worker process 27
+2025/08/31 18:08:13 [notice] 1#1: start worker process 28
+2025/08/31 18:28:53 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/08/31 18:28:53 [notice] 21#21: gracefully shutting down
+2025/08/31 18:28:53 [notice] 27#27: gracefully shutting down
+2025/08/31 18:28:53 [notice] 27#27: exiting
+2025/08/31 18:28:53 [notice] 23#23: gracefully shutting down
+2025/08/31 18:28:53 [notice] 22#22: gracefully shutting down
+2025/08/31 18:28:53 [notice] 22#22: exiting
+2025/08/31 18:28:53 [notice] 26#26: gracefully shutting down
+2025/08/31 18:28:53 [notice] 25#25: gracefully shutting down
+2025/08/31 18:28:53 [notice] 28#28: gracefully shutting down
+2025/08/31 18:28:53 [notice] 28#28: exiting
+2025/08/31 18:28:53 [notice] 24#24: gracefully shutting down
+2025/08/31 18:28:53 [notice] 24#24: exiting
+2025/08/31 18:28:53 [notice] 21#21: exiting
+2025/08/31 18:28:53 [notice] 27#27: exit
+2025/08/31 18:28:53 [notice] 23#23: exiting
+2025/08/31 18:28:53 [notice] 22#22: exit
+2025/08/31 18:28:53 [notice] 26#26: exiting
+2025/08/31 18:28:53 [notice] 25#25: exiting
+2025/08/31 18:28:53 [notice] 28#28: exit
+2025/08/31 18:28:53 [notice] 25#25: exit
+2025/08/31 18:28:53 [notice] 24#24: exit
+2025/08/31 18:28:53 [notice] 21#21: exit
+2025/08/31 18:28:53 [notice] 23#23: exit
+2025/08/31 18:28:53 [notice] 26#26: exit
+2025/08/31 18:28:53 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2025/08/31 18:28:53 [notice] 1#1: worker process 21 exited with code 0
+2025/08/31 18:28:53 [notice] 1#1: worker process 23 exited with code 0
+2025/08/31 18:28:53 [notice] 1#1: worker process 25 exited with code 0
+2025/08/31 18:28:53 [notice] 1#1: worker process 27 exited with code 0
+2025/08/31 18:28:53 [notice] 1#1: signal 29 (SIGIO) received
+2025/08/31 18:28:53 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2025/08/31 18:28:53 [notice] 1#1: worker process 22 exited with code 0
+2025/08/31 18:28:53 [notice] 1#1: worker process 24 exited with code 0
+2025/08/31 18:28:53 [notice] 1#1: signal 29 (SIGIO) received
+2025/08/31 18:28:53 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2025/08/31 18:28:53 [notice] 1#1: worker process 26 exited with code 0
+2025/08/31 18:28:53 [notice] 1#1: worker process 28 exited with code 0
+2025/08/31 18:28:53 [notice] 1#1: exit
+2025/08/31 18:30:30 [notice] 1#1: using the "epoll" event method
+2025/08/31 18:30:30 [notice] 1#1: nginx/1.29.1
+2025/08/31 18:30:30 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/08/31 18:30:30 [notice] 1#1: OS: Linux 6.10.14-linuxkit
+2025/08/31 18:30:30 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/08/31 18:30:30 [notice] 1#1: start worker processes
+2025/08/31 18:30:30 [notice] 1#1: start worker process 21
+2025/08/31 18:30:30 [notice] 1#1: start worker process 22
+2025/08/31 18:30:30 [notice] 1#1: start worker process 23
+2025/08/31 18:30:30 [notice] 1#1: start worker process 24
+2025/08/31 18:30:30 [notice] 1#1: start worker process 25
+2025/08/31 18:30:30 [notice] 1#1: start worker process 26
+2025/08/31 18:30:30 [notice] 1#1: start worker process 27
+2025/08/31 18:30:30 [notice] 1#1: start worker process 28
+2025/08/31 18:43:05 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/08/31 18:43:05 [notice] 21#21: gracefully shutting down
+2025/08/31 18:43:05 [notice] 21#21: exiting
+2025/08/31 18:43:05 [notice] 22#22: gracefully shutting down
+2025/08/31 18:43:05 [notice] 22#22: exiting
+2025/08/31 18:43:05 [notice] 26#26: gracefully shutting down
+2025/08/31 18:43:05 [notice] 25#25: gracefully shutting down
+2025/08/31 18:43:05 [notice] 24#24: gracefully shutting down
+2025/08/31 18:43:05 [notice] 24#24: exiting
+2025/08/31 18:43:05 [notice] 28#28: gracefully shutting down
+2025/08/31 18:43:05 [notice] 23#23: gracefully shutting down
+2025/08/31 18:43:05 [notice] 23#23: exiting
+2025/08/31 18:43:05 [notice] 27#27: gracefully shutting down
+2025/08/31 18:43:05 [notice] 21#21: exit
+2025/08/31 18:43:05 [notice] 22#22: exit
+2025/08/31 18:43:05 [notice] 26#26: exiting
+2025/08/31 18:43:05 [notice] 25#25: exiting
+2025/08/31 18:43:05 [notice] 24#24: exit
+2025/08/31 18:43:05 [notice] 25#25: exit
+2025/08/31 18:43:05 [notice] 28#28: exiting
+2025/08/31 18:43:05 [notice] 23#23: exit
+2025/08/31 18:43:05 [notice] 27#27: exiting
+2025/08/31 18:43:05 [notice] 26#26: exit
+2025/08/31 18:43:05 [notice] 28#28: exit
+2025/08/31 18:43:05 [notice] 27#27: exit
+2025/08/31 18:43:05 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2025/08/31 18:43:05 [notice] 1#1: worker process 22 exited with code 0
+2025/08/31 18:43:05 [notice] 1#1: worker process 26 exited with code 0
+2025/08/31 18:43:05 [notice] 1#1: signal 29 (SIGIO) received
+2025/08/31 18:43:05 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2025/08/31 18:43:05 [notice] 1#1: worker process 21 exited with code 0
+2025/08/31 18:43:05 [notice] 1#1: worker process 23 exited with code 0
+2025/08/31 18:43:05 [notice] 1#1: worker process 24 exited with code 0
+2025/08/31 18:43:05 [notice] 1#1: worker process 25 exited with code 0
+2025/08/31 18:43:05 [notice] 1#1: worker process 27 exited with code 0
+2025/08/31 18:43:05 [notice] 1#1: worker process 28 exited with code 0
+2025/08/31 18:43:05 [notice] 1#1: exit
+2025/08/31 18:43:06 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/default.conf:68
+2025/08/31 18:43:06 [notice] 1#1: using the "epoll" event method
+2025/08/31 18:43:06 [notice] 1#1: nginx/1.29.1
+2025/08/31 18:43:06 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/08/31 18:43:06 [notice] 1#1: OS: Linux 6.10.14-linuxkit
+2025/08/31 18:43:06 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/08/31 18:43:06 [notice] 1#1: start worker processes
+2025/08/31 18:43:06 [notice] 1#1: start worker process 21
+2025/08/31 18:43:06 [notice] 1#1: start worker process 22
+2025/08/31 18:43:06 [notice] 1#1: start worker process 23
+2025/08/31 18:43:06 [notice] 1#1: start worker process 24
+2025/08/31 18:43:06 [notice] 1#1: start worker process 25
+2025/08/31 18:43:06 [notice] 1#1: start worker process 26
+2025/08/31 18:43:06 [notice] 1#1: start worker process 27
+2025/08/31 18:43:06 [notice] 1#1: start worker process 28
+2025/08/31 18:47:59 [error] 23#23: *5 limiting requests, excess: 5.695 by zone "auth", client: 151.101.2.132, server: localhost, request: "POST /api/auth/refresh HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/dashboard"
+2025/08/31 18:47:59 [error] 24#24: *8 limiting requests, excess: 5.692 by zone "auth", client: 151.101.2.132, server: localhost, request: "POST /api/auth/refresh HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/dashboard"
+2025/08/31 18:47:59 [error] 22#22: *3 limiting requests, excess: 5.691 by zone "auth", client: 151.101.2.132, server: localhost, request: "POST /api/auth/refresh HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/dashboard"
+2025/08/31 21:26:00 [error] 22#22: *137 limiting requests, excess: 5.750 by zone "auth", client: 185.199.111.133, server: localhost, request: "POST /api/auth/refresh HTTP/1.1", host: "localhost:8080", referrer: "http://192.168.18.101:8080/"
+2025/09/01 07:38:45 [error] 25#25: *292 limiting requests, excess: 5.628 by zone "auth", client: 185.199.111.133, server: localhost, request: "POST /api/auth/refresh HTTP/1.1", host: "localhost:8080", referrer: "http://192.168.18.101:8080/"
+2025/09/01 08:52:15 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/09/01 08:52:15 [notice] 22#22: gracefully shutting down
+2025/09/01 08:52:15 [notice] 24#24: gracefully shutting down
+2025/09/01 08:52:15 [notice] 23#23: gracefully shutting down
+2025/09/01 08:52:15 [notice] 25#25: gracefully shutting down
+2025/09/01 08:52:15 [notice] 26#26: gracefully shutting down
+2025/09/01 08:52:15 [notice] 27#27: gracefully shutting down
+2025/09/01 08:52:15 [notice] 21#21: gracefully shutting down
+2025/09/01 08:52:15 [notice] 28#28: gracefully shutting down
+2025/09/01 08:52:15 [notice] 24#24: exiting
+2025/09/01 08:52:15 [notice] 25#25: exiting
+2025/09/01 08:52:15 [notice] 23#23: exiting
+2025/09/01 08:52:15 [notice] 26#26: exiting
+2025/09/01 08:52:15 [notice] 27#27: exiting
+2025/09/01 08:52:15 [notice] 22#22: exiting
+2025/09/01 08:52:15 [notice] 28#28: exiting
+2025/09/01 08:52:15 [notice] 21#21: exiting
+2025/09/01 08:52:15 [notice] 26#26: exit
+2025/09/01 08:52:15 [notice] 24#24: exit
+2025/09/01 08:52:15 [notice] 22#22: exit
+2025/09/01 08:52:15 [notice] 25#25: exit
+2025/09/01 08:52:15 [notice] 28#28: exit
+2025/09/01 08:52:15 [notice] 23#23: exit
+2025/09/01 08:52:15 [notice] 27#27: exit
+2025/09/01 08:52:15 [notice] 21#21: exit
+2025/09/01 08:52:15 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2025/09/01 08:52:15 [notice] 1#1: worker process 21 exited with code 0
+2025/09/01 08:52:15 [notice] 1#1: worker process 28 exited with code 0
+2025/09/01 08:52:15 [notice] 1#1: signal 29 (SIGIO) received
+2025/09/01 08:52:15 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2025/09/01 08:52:15 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2025/09/01 08:52:15 [notice] 1#1: worker process 23 exited with code 0
+2025/09/01 08:52:15 [notice] 1#1: worker process 22 exited with code 0
+2025/09/01 08:52:15 [notice] 1#1: worker process 25 exited with code 0
+2025/09/01 08:52:15 [notice] 1#1: signal 29 (SIGIO) received
+2025/09/01 08:52:15 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2025/09/01 08:52:15 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2025/09/01 08:52:15 [notice] 1#1: worker process 24 exited with code 0
+2025/09/01 08:52:15 [notice] 1#1: worker process 26 exited with code 0
+2025/09/01 08:52:15 [notice] 1#1: worker process 27 exited with code 0
+2025/09/01 08:52:15 [notice] 1#1: exit
+2025/09/01 17:48:51 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/default.conf:68
+2025/09/01 17:48:51 [notice] 1#1: using the "epoll" event method
+2025/09/01 17:48:51 [notice] 1#1: nginx/1.29.1
+2025/09/01 17:48:51 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/09/01 17:48:51 [notice] 1#1: OS: Linux 6.10.14-linuxkit
+2025/09/01 17:48:51 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/09/01 17:48:51 [notice] 1#1: start worker processes
+2025/09/01 17:48:51 [notice] 1#1: start worker process 21
+2025/09/01 17:48:51 [notice] 1#1: start worker process 22
+2025/09/01 17:48:51 [notice] 1#1: start worker process 23
+2025/09/01 17:48:51 [notice] 1#1: start worker process 24
+2025/09/01 17:48:51 [notice] 1#1: start worker process 25
+2025/09/01 17:48:51 [notice] 1#1: start worker process 26
+2025/09/01 17:48:51 [notice] 1#1: start worker process 27
+2025/09/01 17:48:51 [notice] 1#1: start worker process 28
+2025/09/01 19:26:55 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/09/01 19:26:55 [notice] 25#25: gracefully shutting down
+2025/09/01 19:26:55 [notice] 26#26: gracefully shutting down
+2025/09/01 19:26:55 [notice] 21#21: gracefully shutting down
+2025/09/01 19:26:55 [notice] 27#27: gracefully shutting down
+2025/09/01 19:26:55 [notice] 28#28: gracefully shutting down
+2025/09/01 19:26:55 [notice] 24#24: gracefully shutting down
+2025/09/01 19:26:55 [notice] 22#22: gracefully shutting down
+2025/09/01 19:26:55 [notice] 23#23: gracefully shutting down
+2025/09/01 19:26:55 [notice] 26#26: exiting
+2025/09/01 19:26:55 [notice] 25#25: exiting
+2025/09/01 19:26:55 [notice] 22#22: exiting
+2025/09/01 19:26:55 [notice] 21#21: exiting
+2025/09/01 19:26:55 [notice] 24#24: exiting
+2025/09/01 19:26:55 [notice] 23#23: exiting
+2025/09/01 19:26:55 [notice] 27#27: exiting
+2025/09/01 19:26:55 [notice] 28#28: exiting
+2025/09/01 19:26:55 [notice] 28#28: exit
+2025/09/01 19:26:55 [notice] 21#21: exit
+2025/09/01 19:26:55 [notice] 26#26: exit
+2025/09/01 19:26:55 [notice] 27#27: exit
+2025/09/01 19:26:55 [notice] 22#22: exit
+2025/09/01 19:26:55 [notice] 25#25: exit
+2025/09/01 19:26:55 [notice] 24#24: exit
+2025/09/01 19:26:55 [notice] 23#23: exit
+2025/09/01 19:26:55 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2025/09/01 19:26:55 [notice] 1#1: worker process 26 exited with code 0
+2025/09/01 19:26:55 [notice] 1#1: worker process 27 exited with code 0
+2025/09/01 19:26:55 [notice] 1#1: worker process 28 exited with code 0
+2025/09/01 19:26:55 [notice] 1#1: worker process 21 exited with code 0
+2025/09/01 19:26:55 [notice] 1#1: worker process 22 exited with code 0
+2025/09/01 19:26:55 [notice] 1#1: worker process 23 exited with code 0
+2025/09/01 19:26:55 [notice] 1#1: worker process 24 exited with code 0
+2025/09/01 19:26:55 [notice] 1#1: worker process 25 exited with code 0
+2025/09/01 19:26:55 [notice] 1#1: exit
+2025/09/01 19:26:59 [warn] 1#1: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /etc/nginx/conf.d/default.conf:68
+2025/09/01 19:26:59 [notice] 1#1: using the "epoll" event method
+2025/09/01 19:26:59 [notice] 1#1: nginx/1.29.1
+2025/09/01 19:26:59 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/09/01 19:26:59 [notice] 1#1: OS: Linux 6.10.14-linuxkit
+2025/09/01 19:26:59 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/09/01 19:26:59 [notice] 1#1: start worker processes
+2025/09/01 19:26:59 [notice] 1#1: start worker process 21
+2025/09/01 19:26:59 [notice] 1#1: start worker process 22
+2025/09/01 19:26:59 [notice] 1#1: start worker process 23
+2025/09/01 19:26:59 [notice] 1#1: start worker process 24
+2025/09/01 19:26:59 [notice] 1#1: start worker process 25
+2025/09/01 19:26:59 [notice] 1#1: start worker process 26
+2025/09/01 19:26:59 [notice] 1#1: start worker process 27
+2025/09/01 19:26:59 [notice] 1#1: start worker process 28
+2025/09/01 20:28:05 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/09/01 20:28:05 [notice] 27#27: gracefully shutting down
+2025/09/01 20:28:05 [notice] 22#22: gracefully shutting down
+2025/09/01 20:28:05 [notice] 25#25: gracefully shutting down
+2025/09/01 20:28:05 [notice] 23#23: gracefully shutting down
+2025/09/01 20:28:05 [notice] 24#24: gracefully shutting down
+2025/09/01 20:28:05 [notice] 26#26: gracefully shutting down
+2025/09/01 20:28:05 [notice] 21#21: gracefully shutting down
+2025/09/01 20:28:05 [notice] 24#24: exiting
+2025/09/01 20:28:05 [notice] 28#28: gracefully shutting down
+2025/09/01 20:28:05 [notice] 25#25: exiting
+2025/09/01 20:28:05 [notice] 26#26: exiting
+2025/09/01 20:28:05 [notice] 27#27: exiting
+2025/09/01 20:28:05 [notice] 23#23: exiting
+2025/09/01 20:28:05 [notice] 22#22: exiting
+2025/09/01 20:28:05 [notice] 21#21: exiting
+2025/09/01 20:28:05 [notice] 28#28: exiting
+2025/09/01 20:28:05 [notice] 23#23: exit
+2025/09/01 20:28:05 [notice] 24#24: exit
+2025/09/01 20:28:05 [notice] 28#28: exit
+2025/09/01 20:28:05 [notice] 27#27: exit
+2025/09/01 20:28:05 [notice] 22#22: exit
+2025/09/01 20:28:05 [notice] 25#25: exit
+2025/09/01 20:28:05 [notice] 26#26: exit
+2025/09/01 20:28:05 [notice] 21#21: exit
+2025/09/01 20:28:06 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2025/09/01 20:28:06 [notice] 1#1: worker process 23 exited with code 0
+2025/09/01 20:28:06 [notice] 1#1: worker process 24 exited with code 0
+2025/09/01 20:28:06 [notice] 1#1: worker process 21 exited with code 0
+2025/09/01 20:28:06 [notice] 1#1: worker process 22 exited with code 0
+2025/09/01 20:28:06 [notice] 1#1: worker process 25 exited with code 0
+2025/09/01 20:28:06 [notice] 1#1: worker process 26 exited with code 0
+2025/09/01 20:28:06 [notice] 1#1: worker process 27 exited with code 0
+2025/09/01 20:28:06 [notice] 1#1: worker process 28 exited with code 0
+2025/09/01 20:28:06 [notice] 1#1: exit

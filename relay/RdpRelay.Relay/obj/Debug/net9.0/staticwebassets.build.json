@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "gLjMEWAIrQxGjcPNNKB8/siRV2cIgeFJtbq7wSvf8Bo=",
+  "Source": "RdpRelay.Relay",
+  "BasePath": "_content/RdpRelay.Relay",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,0 +1,460 @@
+[2025-08-26 20:04:11.671 +00:00 [INF] : Starting Portal API
+[2025-08-26 20:04:11.810 +00:00 [WRN] Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository: Storing keys in a directory '/home/appuser/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+[2025-08-26 20:04:11.816 +00:00 [INF] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager: User profile is available. Using '/home/appuser/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[2025-08-26 20:04:11.856 +00:00 [INF] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager: Creating key {5f732eb9-b1cb-4de2-b71e-708028e23281} with creation date 2025-08-26 20:04:11Z, activation date 2025-08-26 20:04:11Z, and expiration date 2025-11-24 20:04:11Z.
+[2025-08-26 20:04:11.874 +00:00 [WRN] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager: No XML encryptor configured. Key {5f732eb9-b1cb-4de2-b71e-708028e23281} may be persisted to storage in unencrypted form.
+[2025-08-26 20:04:11.892 +00:00 [INF] Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository: Writing data to file '/home/appuser/.aspnet/DataProtection-Keys/key-5f732eb9-b1cb-4de2-b71e-708028e23281.xml'.
+[2025-08-26 20:04:11.910 +00:00 [WRN] Microsoft.AspNetCore.Hosting.Diagnostics: Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://+:8080'.
+[2025-08-26 20:04:12.019 +00:00 [INF] Microsoft.Hosting.Lifetime: Now listening on: http://[::]:8080
+[2025-08-26 20:04:12.021 +00:00 [INF] Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+[2025-08-26 20:04:12.021 +00:00 [INF] Microsoft.Hosting.Lifetime: Hosting environment: Production
+[2025-08-26 20:04:12.022 +00:00 [INF] Microsoft.Hosting.Lifetime: Content root path: /app
+[2025-08-26 20:05:09.473 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.1 GET http://localhost:5000/health - null null
+[2025-08-26 20:05:09.512 +00:00 [WRN] Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware: Failed to determine the https port for redirect.
+[2025-08-26 20:05:09.584 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.1 GET http://localhost:5000/health - 404 0 null 111.197ms
+[2025-08-26 20:05:09.632 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/health, Response status code: 404
+[2025-08-26 20:05:21.751 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.1 GET http://localhost:5000/ - null null
+[2025-08-26 20:05:21.758 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.1 GET http://localhost:5000/ - 404 0 null 8.007ms
+[2025-08-26 20:05:21.762 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/, Response status code: 404
+[2025-08-26 20:05:30.415 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.1 GET http://localhost:5000/api/auth - null null
+[2025-08-26 20:05:30.427 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.1 GET http://localhost:5000/api/auth - 404 0 null 12.2909ms
+[2025-08-26 20:05:30.428 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/api/auth, Response status code: 404
+[2025-08-26 20:05:55.038 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.1 POST http://localhost:5000/api/auth/login - null null
+[2025-08-26 20:05:55.043 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executing endpoint 'RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api)'
+[2025-08-26 20:05:55.098 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[RdpRelay.Portal.Api.Models.LoginResponse]] Login(RdpRelay.Portal.Api.Models.LoginRequest) on controller RdpRelay.Portal.Api.Controllers.AuthController (RdpRelay.Portal.Api).
+[2025-08-26 20:05:55.146 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor: Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+[2025-08-26 20:05:55.222 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Executed action RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api) in 117.9761ms
+[2025-08-26 20:05:55.223 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executed endpoint 'RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api)'
+[2025-08-26 20:05:55.224 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.1 POST http://localhost:5000/api/auth/login - 415 null application/problem+json; charset=utf-8 186.3633ms
+[2025-08-26 20:06:04.035 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.1 POST http://localhost:5000/api/auth/login - application/json 43
+[2025-08-26 20:06:04.039 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executing endpoint 'RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api)'
+[2025-08-26 20:06:04.041 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[RdpRelay.Portal.Api.Models.LoginResponse]] Login(RdpRelay.Portal.Api.Models.LoginRequest) on controller RdpRelay.Portal.Api.Controllers.AuthController (RdpRelay.Portal.Api).
+[2025-08-26 20:06:04.524 +00:00 [WRN] RdpRelay.Portal.Api.Controllers.AuthController: Failed login attempt for test@test.com from ::ffff:192.168.65.1
+[2025-08-26 20:06:04.531 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor: Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2025-08-26 20:06:04.542 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Executed action RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api) in 499.9165ms
+[2025-08-26 20:06:04.544 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executed endpoint 'RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api)'
+[2025-08-26 20:06:04.547 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.1 POST http://localhost:5000/api/auth/login - 401 null application/json; charset=utf-8 511.6375ms
+[2025-08-26 20:06:23.045 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.0 POST http://localhost/api/auth/login - application/json 43
+[2025-08-26 20:06:23.047 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executing endpoint 'RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api)'
+[2025-08-26 20:06:23.048 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[RdpRelay.Portal.Api.Models.LoginResponse]] Login(RdpRelay.Portal.Api.Models.LoginRequest) on controller RdpRelay.Portal.Api.Controllers.AuthController (RdpRelay.Portal.Api).
+[2025-08-26 20:06:23.060 +00:00 [WRN] RdpRelay.Portal.Api.Controllers.AuthController: Failed login attempt for test@test.com from ::ffff:172.18.0.7
+[2025-08-26 20:06:23.061 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor: Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2025-08-26 20:06:23.063 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Executed action RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api) in 14.889ms
+[2025-08-26 20:06:23.064 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executed endpoint 'RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api)'
+[2025-08-26 20:06:23.065 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.0 POST http://localhost/api/auth/login - 401 null application/json; charset=utf-8 19.3569ms
+[2025-08-26 20:10:52.541 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.0 POST http://localhost/api/auth/login - application/json 54
+[2025-08-26 20:10:52.548 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executing endpoint 'RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api)'
+[2025-08-26 20:10:52.553 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[RdpRelay.Portal.Api.Models.LoginResponse]] Login(RdpRelay.Portal.Api.Models.LoginRequest) on controller RdpRelay.Portal.Api.Controllers.AuthController (RdpRelay.Portal.Api).
+[2025-08-26 20:10:52.615 +00:00 [ERR] RdpRelay.Portal.Api.Controllers.AuthController: Error during login for admin@rdprelay.local
+System.FormatException: An error occurred while deserializing the Role property of class RdpRelay.Portal.Api.Models.User: Requested value 'admin' was not found.
+ ---> System.ArgumentException: Requested value 'admin' was not found.
+   at System.Enum.TryParseByName[TStorage](RuntimeType enumType, ReadOnlySpan`1 value, Boolean ignoreCase, Boolean throwOnFailure, TStorage& result)
+   at System.Enum.TryParseByValueOrName[TUnderlying,TStorage](RuntimeType enumType, ReadOnlySpan`1 value, Boolean ignoreCase, Boolean throwOnFailure, TUnderlying& result)
+   at System.Enum.TryParse(Type enumType, ReadOnlySpan`1 value, Boolean ignoreCase, Boolean throwOnFailure, Object& result)
+   at System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   at MongoDB.Bson.Serialization.Serializers.EnumSerializer`1.ConvertStringToEnum(String value)
+   at MongoDB.Bson.Serialization.Serializers.EnumSerializer`1.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at MongoDB.Bson.Serialization.Serializers.SerializerBase`1.MongoDB.Bson.Serialization.IBsonSerializer.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize(IBsonSerializer serializer, BsonDeserializationContext context)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeMemberValue(BsonDeserializationContext context, BsonMemberMap memberMap)
+   --- End of inner exception stack trace ---
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeMemberValue(BsonDeserializationContext context, BsonMemberMap memberMap)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeClass(BsonDeserializationContext context)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize[TValue](IBsonSerializer`1 serializer, BsonDeserializationContext context)
+   at MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch[TDocument](RawBsonArray batch, IBsonSerializer`1 documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](IReadBinding binding, IReadOperation`1 operation, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSessionAsync[TResult](Func`2 funcAsync, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.FirstOrDefaultAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at RdpRelay.Portal.Api.Services.UserService.GetUserByEmailAsync(String email) in /src/portal-api/RdpRelay.Portal.Api/Services/UserService.cs:line 81
+   at RdpRelay.Portal.Api.Services.UserService.AuthenticateAsync(String email, String password) in /src/portal-api/RdpRelay.Portal.Api/Services/UserService.cs:line 33
+   at RdpRelay.Portal.Api.Controllers.AuthController.Login(LoginRequest request) in /src/portal-api/RdpRelay.Portal.Api/Controllers/AuthController.cs:line 29
+[2025-08-26 20:10:52.659 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor: Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2025-08-26 20:10:52.660 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Executed action RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api) in 106.313ms
+[2025-08-26 20:10:52.661 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executed endpoint 'RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api)'
+[2025-08-26 20:10:52.661 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.0 POST http://localhost/api/auth/login - 500 null application/json; charset=utf-8 120.9085ms
+[2025-08-26 20:12:02.439 +00:00 [INF] Microsoft.Hosting.Lifetime: Application is shutting down...
+[2025-08-26 20:12:05.218 +00:00 [INF] : Starting Portal API
+[2025-08-26 20:12:05.317 +00:00 [WRN] Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository: Storing keys in a directory '/home/appuser/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+[2025-08-26 20:12:05.323 +00:00 [INF] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager: User profile is available. Using '/home/appuser/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[2025-08-26 20:12:05.368 +00:00 [WRN] Microsoft.AspNetCore.Hosting.Diagnostics: Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://+:8080'.
+[2025-08-26 20:12:05.498 +00:00 [INF] Microsoft.Hosting.Lifetime: Now listening on: http://[::]:8080
+[2025-08-26 20:12:05.501 +00:00 [INF] Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+[2025-08-26 20:12:05.503 +00:00 [INF] Microsoft.Hosting.Lifetime: Hosting environment: Production
+[2025-08-26 20:12:05.503 +00:00 [INF] Microsoft.Hosting.Lifetime: Content root path: /app
+[2025-08-26 20:12:17.862 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.0 POST http://localhost/api/auth/login - application/json 54
+[2025-08-26 20:12:17.913 +00:00 [WRN] Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware: Failed to determine the https port for redirect.
+[2025-08-26 20:12:18.001 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executing endpoint 'RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api)'
+[2025-08-26 20:12:18.077 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[RdpRelay.Portal.Api.Models.LoginResponse]] Login(RdpRelay.Portal.Api.Models.LoginRequest) on controller RdpRelay.Portal.Api.Controllers.AuthController (RdpRelay.Portal.Api).
+[2025-08-26 20:12:18.543 +00:00 [ERR] RdpRelay.Portal.Api.Controllers.AuthController: Error during login for admin@rdprelay.local
+System.FormatException: An error occurred while deserializing the Role property of class RdpRelay.Portal.Api.Models.User: Requested value 'admin' was not found.
+ ---> System.ArgumentException: Requested value 'admin' was not found.
+   at System.Enum.TryParseByName[TStorage](RuntimeType enumType, ReadOnlySpan`1 value, Boolean ignoreCase, Boolean throwOnFailure, TStorage& result)
+   at System.Enum.TryParseByValueOrName[TUnderlying,TStorage](RuntimeType enumType, ReadOnlySpan`1 value, Boolean ignoreCase, Boolean throwOnFailure, TUnderlying& result)
+   at System.Enum.TryParse(Type enumType, ReadOnlySpan`1 value, Boolean ignoreCase, Boolean throwOnFailure, Object& result)
+   at System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   at MongoDB.Bson.Serialization.Serializers.EnumSerializer`1.ConvertStringToEnum(String value)
+   at MongoDB.Bson.Serialization.Serializers.EnumSerializer`1.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at MongoDB.Bson.Serialization.Serializers.SerializerBase`1.MongoDB.Bson.Serialization.IBsonSerializer.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize(IBsonSerializer serializer, BsonDeserializationContext context)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeMemberValue(BsonDeserializationContext context, BsonMemberMap memberMap)
+   --- End of inner exception stack trace ---
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeMemberValue(BsonDeserializationContext context, BsonMemberMap memberMap)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeClass(BsonDeserializationContext context)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize[TValue](IBsonSerializer`1 serializer, BsonDeserializationContext context)
+   at MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch[TDocument](RawBsonArray batch, IBsonSerializer`1 documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](IReadBinding binding, IReadOperation`1 operation, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSessionAsync[TResult](Func`2 funcAsync, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.FirstOrDefaultAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at RdpRelay.Portal.Api.Services.UserService.GetUserByEmailAsync(String email) in /src/portal-api/RdpRelay.Portal.Api/Services/UserService.cs:line 81
+   at RdpRelay.Portal.Api.Services.UserService.AuthenticateAsync(String email, String password) in /src/portal-api/RdpRelay.Portal.Api/Services/UserService.cs:line 33
+   at RdpRelay.Portal.Api.Controllers.AuthController.Login(LoginRequest request) in /src/portal-api/RdpRelay.Portal.Api/Controllers/AuthController.cs:line 29
+[2025-08-26 20:12:18.591 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor: Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2025-08-26 20:12:18.611 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Executed action RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api) in 527.8725ms
+[2025-08-26 20:12:18.637 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executed endpoint 'RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api)'
+[2025-08-26 20:12:18.641 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.0 POST http://localhost/api/auth/login - 500 null application/json; charset=utf-8 781.6411ms
+[2025-08-26 20:13:28.886 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.0 POST http://localhost/api/auth/login - application/json 54
+[2025-08-26 20:13:28.897 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executing endpoint 'RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api)'
+[2025-08-26 20:13:28.898 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[RdpRelay.Portal.Api.Models.LoginResponse]] Login(RdpRelay.Portal.Api.Models.LoginRequest) on controller RdpRelay.Portal.Api.Controllers.AuthController (RdpRelay.Portal.Api).
+[2025-08-26 20:13:29.303 +00:00 [WRN] RdpRelay.Portal.Api.Controllers.AuthController: Failed login attempt for admin@rdprelay.local from ::ffff:172.18.0.7
+[2025-08-26 20:13:29.306 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor: Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2025-08-26 20:13:29.307 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Executed action RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api) in 408.0815ms
+[2025-08-26 20:13:29.308 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executed endpoint 'RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api)'
+[2025-08-26 20:13:29.309 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.0 POST http://localhost/api/auth/login - 401 null application/json; charset=utf-8 423.7685ms
+[2025-08-26 20:18:21.819 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.0 POST http://localhost/api/auth/login - application/json 54
+[2025-08-26 20:18:21.826 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executing endpoint 'RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api)'
+[2025-08-26 20:18:21.827 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[RdpRelay.Portal.Api.Models.LoginResponse]] Login(RdpRelay.Portal.Api.Models.LoginRequest) on controller RdpRelay.Portal.Api.Controllers.AuthController (RdpRelay.Portal.Api).
+[2025-08-26 20:18:22.111 +00:00 [WRN] RdpRelay.Portal.Api.Controllers.AuthController: Failed login attempt for admin@rdprelay.local from ::ffff:172.18.0.7
+[2025-08-26 20:18:22.115 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor: Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2025-08-26 20:18:22.117 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Executed action RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api) in 288.6533ms
+[2025-08-26 20:18:22.118 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executed endpoint 'RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api)'
+[2025-08-26 20:18:22.119 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.0 POST http://localhost/api/auth/login - 401 null application/json; charset=utf-8 299.6282ms
+[2025-08-26 20:18:54.952 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.0 POST http://localhost/api/auth/login - application/json 47
+[2025-08-26 20:18:54.955 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executing endpoint 'RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api)'
+[2025-08-26 20:18:54.956 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[RdpRelay.Portal.Api.Models.LoginResponse]] Login(RdpRelay.Portal.Api.Models.LoginRequest) on controller RdpRelay.Portal.Api.Controllers.AuthController (RdpRelay.Portal.Api).
+[2025-08-26 20:18:55.096 +00:00 [INF] RdpRelay.Portal.Api.Services.UserService: User test@test.com authenticated successfully
+[2025-08-26 20:18:55.260 +00:00 [INF] RdpRelay.Portal.Api.Controllers.AuthController: User 68ae16a34a4bd0ff3c89b03d logged in successfully
+[2025-08-26 20:18:55.262 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor: Executing OkObjectResult, writing value of type 'RdpRelay.Portal.Api.Models.LoginResponse'.
+[2025-08-26 20:18:55.290 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Executed action RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api) in 333.6152ms
+[2025-08-26 20:18:55.291 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executed endpoint 'RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api)'
+[2025-08-26 20:18:55.291 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.0 POST http://localhost/api/auth/login - 200 null application/json; charset=utf-8 338.9769ms
+[2025-08-26 20:19:25.886 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.0 GET http://localhost/api/auth/me - null null
+[2025-08-26 20:19:26.047 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executing endpoint 'RdpRelay.Portal.Api.Controllers.AuthController.GetCurrentUser (RdpRelay.Portal.Api)'
+[2025-08-26 20:19:26.059 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Route matched with {action = "GetCurrentUser", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[RdpRelay.Portal.Api.Models.UserInfo]] GetCurrentUser() on controller RdpRelay.Portal.Api.Controllers.AuthController (RdpRelay.Portal.Api).
+[2025-08-26 20:19:26.089 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor: Executing OkObjectResult, writing value of type 'RdpRelay.Portal.Api.Models.UserInfo'.
+[2025-08-26 20:19:26.090 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Executed action RdpRelay.Portal.Api.Controllers.AuthController.GetCurrentUser (RdpRelay.Portal.Api) in 30.0244ms
+[2025-08-26 20:19:26.091 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executed endpoint 'RdpRelay.Portal.Api.Controllers.AuthController.GetCurrentUser (RdpRelay.Portal.Api)'
+[2025-08-26 20:19:26.092 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.0 GET http://localhost/api/auth/me - 200 null application/json; charset=utf-8 205.6052ms
+[2025-08-26 20:19:37.767 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.0 GET http://localhost/api/tenants - null null
+[2025-08-26 20:19:37.774 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executing endpoint 'RdpRelay.Portal.Api.Controllers.TenantsController.GetTenants (RdpRelay.Portal.Api)'
+[2025-08-26 20:19:37.786 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Route matched with {action = "GetTenants", controller = "Tenants"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[RdpRelay.Portal.Api.Models.PagedResponse`1[RdpRelay.Portal.Api.Models.Tenant]]] GetTenants(Int32, Int32) on controller RdpRelay.Portal.Api.Controllers.TenantsController (RdpRelay.Portal.Api).
+[2025-08-26 20:19:37.830 +00:00 [ERR] RdpRelay.Portal.Api.Controllers.TenantsController: Error retrieving tenants
+System.FormatException: An error occurred while deserializing the Settings property of class RdpRelay.Portal.Api.Models.Tenant: Element 'maxSessions' does not match any field or property of class RdpRelay.Portal.Api.Models.TenantSettings.
+ ---> System.FormatException: Element 'maxSessions' does not match any field or property of class RdpRelay.Portal.Api.Models.TenantSettings.
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeClass(BsonDeserializationContext context)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at MongoDB.Bson.Serialization.Serializers.SerializerBase`1.MongoDB.Bson.Serialization.IBsonSerializer.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize(IBsonSerializer serializer, BsonDeserializationContext context)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeMemberValue(BsonDeserializationContext context, BsonMemberMap memberMap)
+   --- End of inner exception stack trace ---
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeMemberValue(BsonDeserializationContext context, BsonMemberMap memberMap)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeClass(BsonDeserializationContext context)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize[TValue](IBsonSerializer`1 serializer, BsonDeserializationContext context)
+   at MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch[TDocument](RawBsonArray batch, IBsonSerializer`1 documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](IReadBinding binding, IReadOperation`1 operation, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSessionAsync[TResult](Func`2 funcAsync, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.ToListAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at RdpRelay.Portal.Api.Services.TenantService.GetTenantsAsync(Int32 skip, Int32 limit) in /src/portal-api/RdpRelay.Portal.Api/Services/TenantService.cs:line 55
+   at RdpRelay.Portal.Api.Controllers.TenantsController.GetTenants(Int32 skip, Int32 limit) in /src/portal-api/RdpRelay.Portal.Api/Controllers/TenantsController.cs:line 31
+[2025-08-26 20:19:37.834 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor: Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2025-08-26 20:19:37.836 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Executed action RdpRelay.Portal.Api.Controllers.TenantsController.GetTenants (RdpRelay.Portal.Api) in 48.6015ms
+[2025-08-26 20:19:37.837 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executed endpoint 'RdpRelay.Portal.Api.Controllers.TenantsController.GetTenants (RdpRelay.Portal.Api)'
+[2025-08-26 20:19:37.838 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.0 GET http://localhost/api/tenants - 500 null application/json; charset=utf-8 70.428ms
+[2025-08-26 20:20:41.564 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.1 GET http://localhost:5000/api/auth/me - null null
+[2025-08-26 20:20:41.589 +00:00 [INF] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService: Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+[2025-08-26 20:20:41.597 +00:00 [INF] Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler: AuthenticationScheme: Bearer was challenged.
+[2025-08-26 20:20:41.598 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.1 GET http://localhost:5000/api/auth/me - 401 0 null 34.0696ms
+[2025-08-26 20:35:28.637 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.0 POST http://localhost/api/auth/login - application/json 47
+[2025-08-26 20:35:28.660 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executing endpoint 'RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api)'
+[2025-08-26 20:35:28.667 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[RdpRelay.Portal.Api.Models.LoginResponse]] Login(RdpRelay.Portal.Api.Models.LoginRequest) on controller RdpRelay.Portal.Api.Controllers.AuthController (RdpRelay.Portal.Api).
+[2025-08-26 20:35:28.914 +00:00 [INF] RdpRelay.Portal.Api.Services.UserService: User test@test.com authenticated successfully
+[2025-08-26 20:35:28.935 +00:00 [INF] RdpRelay.Portal.Api.Controllers.AuthController: User 68ae16a34a4bd0ff3c89b03d logged in successfully
+[2025-08-26 20:35:28.938 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor: Executing OkObjectResult, writing value of type 'RdpRelay.Portal.Api.Models.LoginResponse'.
+[2025-08-26 20:35:28.939 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Executed action RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api) in 271.1283ms
+[2025-08-26 20:35:28.940 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executed endpoint 'RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api)'
+[2025-08-26 20:35:28.941 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.0 POST http://localhost/api/auth/login - 200 null application/json; charset=utf-8 304.2002ms
+[2025-08-26 20:44:59.746 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.0 POST http://localhost/api/auth/login - application/json 47
+[2025-08-26 20:44:59.774 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executing endpoint 'RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api)'
+[2025-08-26 20:44:59.783 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[RdpRelay.Portal.Api.Models.LoginResponse]] Login(RdpRelay.Portal.Api.Models.LoginRequest) on controller RdpRelay.Portal.Api.Controllers.AuthController (RdpRelay.Portal.Api).
+[2025-08-26 20:45:00.023 +00:00 [INF] RdpRelay.Portal.Api.Services.UserService: User test@test.com authenticated successfully
+[2025-08-26 20:45:00.048 +00:00 [INF] RdpRelay.Portal.Api.Controllers.AuthController: User 68ae16a34a4bd0ff3c89b03d logged in successfully
+[2025-08-26 20:45:00.049 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor: Executing OkObjectResult, writing value of type 'RdpRelay.Portal.Api.Models.LoginResponse'.
+[2025-08-26 20:45:00.056 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Executed action RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api) in 271.2085ms
+[2025-08-26 20:45:00.058 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executed endpoint 'RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api)'
+[2025-08-26 20:45:00.060 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.0 POST http://localhost/api/auth/login - 200 null application/json; charset=utf-8 319.1005ms
+[2025-08-26 20:58:32.675 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.0 POST http://localhost/api/auth/login - application/json 47
+[2025-08-26 20:58:32.697 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executing endpoint 'RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api)'
+[2025-08-26 20:58:32.705 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[RdpRelay.Portal.Api.Models.LoginResponse]] Login(RdpRelay.Portal.Api.Models.LoginRequest) on controller RdpRelay.Portal.Api.Controllers.AuthController (RdpRelay.Portal.Api).
+[2025-08-26 20:58:33.002 +00:00 [INF] RdpRelay.Portal.Api.Services.UserService: User test@test.com authenticated successfully
+[2025-08-26 20:58:33.024 +00:00 [INF] RdpRelay.Portal.Api.Controllers.AuthController: User 68ae16a34a4bd0ff3c89b03d logged in successfully
+[2025-08-26 20:58:33.027 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor: Executing OkObjectResult, writing value of type 'RdpRelay.Portal.Api.Models.LoginResponse'.
+[2025-08-26 20:58:33.033 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Executed action RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api) in 326.0651ms
+[2025-08-26 20:58:33.034 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executed endpoint 'RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api)'
+[2025-08-26 20:58:33.035 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.0 POST http://localhost/api/auth/login - 200 null application/json; charset=utf-8 365.5393ms
+[2025-08-26 20:59:47.379 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.0 GET http://localhost/api/devices - null null
+[2025-08-26 20:59:47.462 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.0 GET http://localhost/api/devices - 404 0 null 83.6079ms
+[2025-08-26 20:59:47.492 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost/api/devices, Response status code: 404
+[2025-08-26 21:01:19.617 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.0 POST http://localhost/api/auth/login - application/json 47
+[2025-08-26 21:01:19.623 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executing endpoint 'RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api)'
+[2025-08-26 21:01:19.624 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[RdpRelay.Portal.Api.Models.LoginResponse]] Login(RdpRelay.Portal.Api.Models.LoginRequest) on controller RdpRelay.Portal.Api.Controllers.AuthController (RdpRelay.Portal.Api).
+[2025-08-26 21:01:19.797 +00:00 [INF] RdpRelay.Portal.Api.Services.UserService: User test@test.com authenticated successfully
+[2025-08-26 21:01:19.814 +00:00 [INF] RdpRelay.Portal.Api.Controllers.AuthController: User 68ae16a34a4bd0ff3c89b03d logged in successfully
+[2025-08-26 21:01:19.816 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor: Executing OkObjectResult, writing value of type 'RdpRelay.Portal.Api.Models.LoginResponse'.
+[2025-08-26 21:01:19.817 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Executed action RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api) in 192.4332ms
+[2025-08-26 21:01:19.818 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executed endpoint 'RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api)'
+[2025-08-26 21:01:19.818 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.0 POST http://localhost/api/auth/login - 200 null application/json; charset=utf-8 202.1806ms
+[2025-08-26 21:05:15.869 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.0 POST http://localhost/api/auth/login - application/json 47
+[2025-08-26 21:05:15.872 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executing endpoint 'RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api)'
+[2025-08-26 21:05:15.873 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[RdpRelay.Portal.Api.Models.LoginResponse]] Login(RdpRelay.Portal.Api.Models.LoginRequest) on controller RdpRelay.Portal.Api.Controllers.AuthController (RdpRelay.Portal.Api).
+[2025-08-26 21:05:16.029 +00:00 [INF] RdpRelay.Portal.Api.Services.UserService: User test@test.com authenticated successfully
+[2025-08-26 21:05:16.035 +00:00 [INF] RdpRelay.Portal.Api.Controllers.AuthController: User 68ae16a34a4bd0ff3c89b03d logged in successfully
+[2025-08-26 21:05:16.035 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor: Executing OkObjectResult, writing value of type 'RdpRelay.Portal.Api.Models.LoginResponse'.
+[2025-08-26 21:05:16.037 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Executed action RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api) in 163.0254ms
+[2025-08-26 21:05:16.038 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executed endpoint 'RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api)'
+[2025-08-26 21:05:16.039 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.0 POST http://localhost/api/auth/login - 200 null application/json; charset=utf-8 170.3949ms
+[2025-08-26 21:13:36.235 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.1 OPTIONS http://localhost:5000/auth/login - null null
+[2025-08-26 21:13:36.429 +00:00 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService: CORS policy execution successful.
+[2025-08-26 21:13:36.457 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.1 OPTIONS http://localhost:5000/auth/login - 204 null null 222.2341ms
+[2025-08-26 21:13:36.466 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.1 POST http://localhost:5000/auth/login - application/json 47
+[2025-08-26 21:13:36.471 +00:00 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService: CORS policy execution successful.
+[2025-08-26 21:13:36.491 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.1 POST http://localhost:5000/auth/login - 404 0 null 22.4732ms
+[2025-08-26 21:13:36.494 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5000/auth/login, Response status code: 404
+[2025-08-26 21:19:05.988 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.1 OPTIONS http://localhost:5000/auth/login - null null
+[2025-08-26 21:19:05.995 +00:00 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService: CORS policy execution successful.
+[2025-08-26 21:19:06.003 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.1 OPTIONS http://localhost:5000/auth/login - 204 null null 15.7909ms
+[2025-08-26 21:19:06.008 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.1 POST http://localhost:5000/auth/login - application/json 47
+[2025-08-26 21:19:06.032 +00:00 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService: CORS policy execution successful.
+[2025-08-26 21:19:06.036 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.1 POST http://localhost:5000/auth/login - 404 0 null 28.6066ms
+[2025-08-26 21:19:06.042 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5000/auth/login, Response status code: 404
+[2025-08-26 21:19:18.938 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.1 OPTIONS http://localhost:5000/auth/login - null null
+[2025-08-26 21:19:18.940 +00:00 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService: CORS policy execution successful.
+[2025-08-26 21:19:18.942 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.1 OPTIONS http://localhost:5000/auth/login - 204 null null 4.0774ms
+[2025-08-26 21:19:18.946 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.1 POST http://localhost:5000/auth/login - application/json 47
+[2025-08-26 21:19:18.947 +00:00 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService: CORS policy execution successful.
+[2025-08-26 21:19:18.948 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.1 POST http://localhost:5000/auth/login - 404 0 null 1.6758ms
+[2025-08-26 21:19:18.951 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5000/auth/login, Response status code: 404
+[2025-08-26 21:20:05.885 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.1 OPTIONS http://localhost:5000/auth/login - null null
+[2025-08-26 21:20:05.888 +00:00 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService: CORS policy execution successful.
+[2025-08-26 21:20:05.891 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.1 OPTIONS http://localhost:5000/auth/login - 204 null null 6.2727ms
+[2025-08-26 21:20:05.895 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.1 POST http://localhost:5000/auth/login - application/json 47
+[2025-08-26 21:20:05.896 +00:00 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService: CORS policy execution successful.
+[2025-08-26 21:20:05.898 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.1 POST http://localhost:5000/auth/login - 404 0 null 2.8852ms
+[2025-08-26 21:20:05.899 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5000/auth/login, Response status code: 404
+[2025-08-26 21:20:17.952 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.1 GET http://localhost:5000/auth/login - null null
+[2025-08-26 21:20:17.954 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.1 GET http://localhost:5000/auth/login - 404 0 null 1.2481ms
+[2025-08-26 21:20:17.958 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/auth/login, Response status code: 404
+[2025-08-26 21:20:21.740 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.1 OPTIONS http://localhost:5000/auth/login - null null
+[2025-08-26 21:20:21.741 +00:00 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService: CORS policy execution successful.
+[2025-08-26 21:20:21.747 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.1 OPTIONS http://localhost:5000/auth/login - 204 null null 1.9591ms
+[2025-08-26 21:20:21.752 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.1 POST http://localhost:5000/auth/login - application/json 47
+[2025-08-26 21:20:21.755 +00:00 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService: CORS policy execution successful.
+[2025-08-26 21:20:21.759 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.1 POST http://localhost:5000/auth/login - 404 0 null 7.1889ms
+[2025-08-26 21:20:21.770 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5000/auth/login, Response status code: 404
+[2025-08-26 21:25:38.658 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.1 OPTIONS http://localhost:5000/auth/login - null null
+[2025-08-26 21:25:38.707 +00:00 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService: CORS policy execution successful.
+[2025-08-26 21:25:38.720 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.1 OPTIONS http://localhost:5000/auth/login - 204 null null 69.3994ms
+[2025-08-26 21:25:38.728 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.1 POST http://localhost:5000/auth/login - application/json 47
+[2025-08-26 21:25:38.734 +00:00 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService: CORS policy execution successful.
+[2025-08-26 21:25:38.743 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.1 POST http://localhost:5000/auth/login - 404 0 null 14.6046ms
+[2025-08-26 21:25:38.767 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5000/auth/login, Response status code: 404
+[2025-08-26 21:25:44.436 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.1 OPTIONS http://localhost:5000/auth/login - null null
+[2025-08-26 21:25:44.492 +00:00 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService: CORS policy execution successful.
+[2025-08-26 21:25:44.496 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.1 OPTIONS http://localhost:5000/auth/login - 204 null null 75.1084ms
+[2025-08-26 21:25:44.507 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.1 POST http://localhost:5000/auth/login - application/json 47
+[2025-08-26 21:25:44.508 +00:00 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService: CORS policy execution successful.
+[2025-08-26 21:25:44.511 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.1 POST http://localhost:5000/auth/login - 404 0 null 3.9683ms
+[2025-08-26 21:25:44.525 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5000/auth/login, Response status code: 404
+[2025-08-26 21:26:28.915 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/auth/login - null null
+[2025-08-26 21:26:28.930 +00:00 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService: CORS policy execution successful.
+[2025-08-26 21:26:28.932 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.1 OPTIONS http://localhost:5000/api/auth/login - 204 null null 16.9302ms
+[2025-08-26 21:26:28.939 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.1 POST http://localhost:5000/api/auth/login - application/json 47
+[2025-08-26 21:26:28.943 +00:00 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService: CORS policy execution successful.
+[2025-08-26 21:26:28.945 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executing endpoint 'RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api)'
+[2025-08-26 21:26:28.966 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[RdpRelay.Portal.Api.Models.LoginResponse]] Login(RdpRelay.Portal.Api.Models.LoginRequest) on controller RdpRelay.Portal.Api.Controllers.AuthController (RdpRelay.Portal.Api).
+[2025-08-26 21:26:29.324 +00:00 [WRN] RdpRelay.Portal.Api.Controllers.AuthController: Failed login attempt for test@test.com from ::ffff:192.168.65.1
+[2025-08-26 21:26:29.335 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor: Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2025-08-26 21:26:29.376 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Executed action RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api) in 374.5528ms
+[2025-08-26 21:26:29.380 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executed endpoint 'RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api)'
+[2025-08-26 21:26:29.387 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.1 POST http://localhost:5000/api/auth/login - 401 null application/json; charset=utf-8 447.9579ms
+[2025-08-26 21:26:41.747 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/auth/login - null null
+[2025-08-26 21:26:41.780 +00:00 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService: CORS policy execution successful.
+[2025-08-26 21:26:41.784 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.1 OPTIONS http://localhost:5000/api/auth/login - 204 null null 35.5516ms
+[2025-08-26 21:26:41.787 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.1 POST http://localhost:5000/api/auth/login - application/json 47
+[2025-08-26 21:26:41.789 +00:00 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService: CORS policy execution successful.
+[2025-08-26 21:26:41.790 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executing endpoint 'RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api)'
+[2025-08-26 21:26:41.790 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[RdpRelay.Portal.Api.Models.LoginResponse]] Login(RdpRelay.Portal.Api.Models.LoginRequest) on controller RdpRelay.Portal.Api.Controllers.AuthController (RdpRelay.Portal.Api).
+[2025-08-26 21:26:41.966 +00:00 [WRN] RdpRelay.Portal.Api.Controllers.AuthController: Failed login attempt for test@test.com from ::ffff:192.168.65.1
+[2025-08-26 21:26:41.968 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor: Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2025-08-26 21:26:41.969 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Executed action RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api) in 174.9726ms
+[2025-08-26 21:26:41.973 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executed endpoint 'RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api)'
+[2025-08-26 21:26:41.978 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.1 POST http://localhost:5000/api/auth/login - 401 null application/json; charset=utf-8 187.7269ms
+[2025-08-26 21:27:42.417 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/auth/login - null null
+[2025-08-26 21:27:42.426 +00:00 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService: CORS policy execution successful.
+[2025-08-26 21:27:42.428 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.1 OPTIONS http://localhost:5000/api/auth/login - 204 null null 11.3353ms
+[2025-08-26 21:27:42.435 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.1 POST http://localhost:5000/api/auth/login - application/json 48
+[2025-08-26 21:27:42.435 +00:00 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService: CORS policy execution successful.
+[2025-08-26 21:27:42.439 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executing endpoint 'RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api)'
+[2025-08-26 21:27:42.441 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[RdpRelay.Portal.Api.Models.LoginResponse]] Login(RdpRelay.Portal.Api.Models.LoginRequest) on controller RdpRelay.Portal.Api.Controllers.AuthController (RdpRelay.Portal.Api).
+[2025-08-26 21:27:42.661 +00:00 [WRN] RdpRelay.Portal.Api.Controllers.AuthController: Failed login attempt for test@test.com from ::ffff:192.168.65.1
+[2025-08-26 21:27:42.662 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor: Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2025-08-26 21:27:42.663 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Executed action RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api) in 214.8086ms
+[2025-08-26 21:27:42.664 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executed endpoint 'RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api)'
+[2025-08-26 21:27:42.666 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.1 POST http://localhost:5000/api/auth/login - 401 null application/json; charset=utf-8 231.2245ms
+[2025-08-26 21:27:58.078 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/auth/login - null null
+[2025-08-26 21:27:58.080 +00:00 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService: CORS policy execution successful.
+[2025-08-26 21:27:58.099 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.1 OPTIONS http://localhost:5000/api/auth/login - 204 null null 20.226ms
+[2025-08-26 21:27:58.102 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.1 POST http://localhost:5000/api/auth/login - application/json 47
+[2025-08-26 21:27:58.105 +00:00 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService: CORS policy execution successful.
+[2025-08-26 21:27:58.113 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executing endpoint 'RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api)'
+[2025-08-26 21:27:58.117 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[RdpRelay.Portal.Api.Models.LoginResponse]] Login(RdpRelay.Portal.Api.Models.LoginRequest) on controller RdpRelay.Portal.Api.Controllers.AuthController (RdpRelay.Portal.Api).
+[2025-08-26 21:27:58.329 +00:00 [WRN] RdpRelay.Portal.Api.Controllers.AuthController: Failed login attempt for test@test.com from ::ffff:192.168.65.1
+[2025-08-26 21:27:58.329 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor: Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2025-08-26 21:27:58.331 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Executed action RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api) in 212.4822ms
+[2025-08-26 21:27:58.332 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executed endpoint 'RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api)'
+[2025-08-26 21:27:58.334 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.1 POST http://localhost:5000/api/auth/login - 401 null application/json; charset=utf-8 231.6435ms
+[2025-08-26 21:28:05.920 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.0 POST http://localhost/api/auth/login - application/json 47
+[2025-08-26 21:28:05.921 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executing endpoint 'RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api)'
+[2025-08-26 21:28:05.922 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[RdpRelay.Portal.Api.Models.LoginResponse]] Login(RdpRelay.Portal.Api.Models.LoginRequest) on controller RdpRelay.Portal.Api.Controllers.AuthController (RdpRelay.Portal.Api).
+[2025-08-26 21:28:06.099 +00:00 [INF] RdpRelay.Portal.Api.Services.UserService: User test@test.com authenticated successfully
+[2025-08-26 21:28:06.150 +00:00 [INF] RdpRelay.Portal.Api.Controllers.AuthController: User 68ae16a34a4bd0ff3c89b03d logged in successfully
+[2025-08-26 21:28:06.152 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor: Executing OkObjectResult, writing value of type 'RdpRelay.Portal.Api.Models.LoginResponse'.
+[2025-08-26 21:28:06.156 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Executed action RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api) in 232.7888ms
+[2025-08-26 21:28:06.157 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executed endpoint 'RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api)'
+[2025-08-26 21:28:06.159 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.0 POST http://localhost/api/auth/login - 200 null application/json; charset=utf-8 238.8457ms
+[2025-08-26 21:34:03.636 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/auth/login - null null
+[2025-08-26 21:34:03.654 +00:00 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService: CORS policy execution successful.
+[2025-08-26 21:34:03.669 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.1 OPTIONS http://localhost:5000/api/auth/login - 204 null null 34.1699ms
+[2025-08-26 21:34:03.679 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.1 POST http://localhost:5000/api/auth/login - application/json 47
+[2025-08-26 21:34:03.680 +00:00 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService: CORS policy execution successful.
+[2025-08-26 21:34:03.694 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executing endpoint 'RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api)'
+[2025-08-26 21:34:03.701 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[RdpRelay.Portal.Api.Models.LoginResponse]] Login(RdpRelay.Portal.Api.Models.LoginRequest) on controller RdpRelay.Portal.Api.Controllers.AuthController (RdpRelay.Portal.Api).
+[2025-08-26 21:34:03.980 +00:00 [WRN] RdpRelay.Portal.Api.Controllers.AuthController: Failed login attempt for test@test.com from ::ffff:192.168.65.1
+[2025-08-26 21:34:03.982 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor: Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2025-08-26 21:34:03.984 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Executed action RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api) in 279.9173ms
+[2025-08-26 21:34:03.986 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executed endpoint 'RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api)'
+[2025-08-26 21:34:04.007 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.1 POST http://localhost:5000/api/auth/login - 401 null application/json; charset=utf-8 328.4651ms
+[2025-08-26 21:37:11.215 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.0 POST http://localhost/api/auth/login - application/json 47
+[2025-08-26 21:37:11.222 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executing endpoint 'RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api)'
+[2025-08-26 21:37:11.226 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[RdpRelay.Portal.Api.Models.LoginResponse]] Login(RdpRelay.Portal.Api.Models.LoginRequest) on controller RdpRelay.Portal.Api.Controllers.AuthController (RdpRelay.Portal.Api).
+[2025-08-26 21:37:11.410 +00:00 [INF] RdpRelay.Portal.Api.Services.UserService: User test@test.com authenticated successfully
+[2025-08-26 21:37:11.430 +00:00 [INF] RdpRelay.Portal.Api.Controllers.AuthController: User 68ae16a34a4bd0ff3c89b03d logged in successfully
+[2025-08-26 21:37:11.431 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor: Executing OkObjectResult, writing value of type 'RdpRelay.Portal.Api.Models.LoginResponse'.
+[2025-08-26 21:37:11.435 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Executed action RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api) in 208.7249ms
+[2025-08-26 21:37:11.436 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executed endpoint 'RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api)'
+[2025-08-26 21:37:11.437 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.0 POST http://localhost/api/auth/login - 200 null application/json; charset=utf-8 222.5177ms
+[2025-08-26 21:38:01.031 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.0 POST http://localhost/api/auth/login - application/json 47
+[2025-08-26 21:38:01.032 +00:00 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService: CORS policy execution successful.
+[2025-08-26 21:38:01.033 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executing endpoint 'RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api)'
+[2025-08-26 21:38:01.035 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[RdpRelay.Portal.Api.Models.LoginResponse]] Login(RdpRelay.Portal.Api.Models.LoginRequest) on controller RdpRelay.Portal.Api.Controllers.AuthController (RdpRelay.Portal.Api).
+[2025-08-26 21:38:01.210 +00:00 [WRN] RdpRelay.Portal.Api.Controllers.AuthController: Failed login attempt for test@test.com from ::ffff:172.18.0.7
+[2025-08-26 21:38:01.214 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor: Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2025-08-26 21:38:01.215 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Executed action RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api) in 178.2267ms
+[2025-08-26 21:38:01.215 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executed endpoint 'RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api)'
+[2025-08-26 21:38:01.217 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.0 POST http://localhost/api/auth/login - 401 null application/json; charset=utf-8 186.3387ms
+[2025-08-26 21:41:23.505 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.0 POST http://localhost/api/auth/login - application/json 47
+[2025-08-26 21:41:23.511 +00:00 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService: CORS policy execution successful.
+[2025-08-26 21:41:23.531 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executing endpoint 'RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api)'
+[2025-08-26 21:41:23.536 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[RdpRelay.Portal.Api.Models.LoginResponse]] Login(RdpRelay.Portal.Api.Models.LoginRequest) on controller RdpRelay.Portal.Api.Controllers.AuthController (RdpRelay.Portal.Api).
+[2025-08-26 21:41:23.704 +00:00 [INF] RdpRelay.Portal.Api.Services.UserService: User test@test.com authenticated successfully
+[2025-08-26 21:41:23.720 +00:00 [INF] RdpRelay.Portal.Api.Controllers.AuthController: User 68ae16a34a4bd0ff3c89b03d logged in successfully
+[2025-08-26 21:41:23.725 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor: Executing OkObjectResult, writing value of type 'RdpRelay.Portal.Api.Models.LoginResponse'.
+[2025-08-26 21:41:23.727 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Executed action RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api) in 189.814ms
+[2025-08-26 21:41:23.727 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executed endpoint 'RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api)'
+[2025-08-26 21:41:23.728 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.0 POST http://localhost/api/auth/login - 200 null application/json; charset=utf-8 222.4768ms
+[2025-08-26 21:41:24.225 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.0 GET http://localhost/api/agents?page=1&pageSize=10 - null null
+[2025-08-26 21:41:24.227 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.0 GET http://localhost/api/users?page=1&pageSize=10 - null null
+[2025-08-26 21:41:24.228 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.0 GET http://localhost/api/sessions?page=1&pageSize=10 - null null
+[2025-08-26 21:41:24.262 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.0 GET http://localhost/api/users?page=1&pageSize=10 - 404 0 null 35.6142ms
+[2025-08-26 21:41:24.266 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost/api/users, Response status code: 404
+[2025-08-26 21:41:24.264 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.0 GET http://localhost/api/sessions?page=1&pageSize=10 - 404 0 null 35.9384ms
+[2025-08-26 21:41:24.270 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost/api/sessions, Response status code: 404
+[2025-08-26 21:41:24.262 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.0 GET http://localhost/api/agents?page=1&pageSize=10 - 404 0 null 37.7712ms
+[2025-08-26 21:41:24.293 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost/api/agents, Response status code: 404
+[2025-08-26 21:42:21.679 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.0 GET http://localhost/api/agents?page=1&pageSize=100 - null null
+[2025-08-26 21:42:21.701 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.0 GET http://localhost/api/agents?page=1&pageSize=100 - 404 0 null 21.6741ms
+[2025-08-26 21:42:21.703 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost/api/agents, Response status code: 404
+[2025-08-26 21:42:30.723 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.0 POST http://localhost/api/agents - application/json 15
+[2025-08-26 21:42:30.724 +00:00 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService: CORS policy execution successful.
+[2025-08-26 21:42:30.728 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.0 POST http://localhost/api/agents - 404 0 null 5.4095ms
+[2025-08-26 21:42:30.731 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost/api/agents, Response status code: 404
+[2025-08-26 21:42:32.893 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.0 POST http://localhost/api/agents - application/json 15
+[2025-08-26 21:42:32.896 +00:00 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService: CORS policy execution successful.
+[2025-08-26 21:42:32.900 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.0 POST http://localhost/api/agents - 404 0 null 6.6714ms
+[2025-08-26 21:42:32.902 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost/api/agents, Response status code: 404
+[2025-08-26 21:42:40.955 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.0 POST http://localhost/api/agents - application/json 15
+[2025-08-26 21:42:40.961 +00:00 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService: CORS policy execution successful.
+[2025-08-26 21:42:40.979 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.0 POST http://localhost/api/agents - 404 0 null 24.2957ms
+[2025-08-26 21:42:40.985 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost/api/agents, Response status code: 404
+[2025-08-26 21:43:01.959 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.0 POST http://localhost/api/auth/login - application/json 52
+[2025-08-26 21:43:01.960 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executing endpoint 'RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api)'
+[2025-08-26 21:43:01.963 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[RdpRelay.Portal.Api.Models.LoginResponse]] Login(RdpRelay.Portal.Api.Models.LoginRequest) on controller RdpRelay.Portal.Api.Controllers.AuthController (RdpRelay.Portal.Api).
+[2025-08-26 21:43:02.116 +00:00 [WRN] RdpRelay.Portal.Api.Controllers.AuthController: Failed login attempt for test@test.com from ::ffff:172.18.0.7
+[2025-08-26 21:43:02.118 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor: Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2025-08-26 21:43:02.120 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Executed action RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api) in 155.3581ms
+[2025-08-26 21:43:02.121 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executed endpoint 'RdpRelay.Portal.Api.Controllers.AuthController.Login (RdpRelay.Portal.Api)'
+[2025-08-26 21:43:02.121 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.0 POST http://localhost/api/auth/login - 401 null application/json; charset=utf-8 162.9296ms
+[2025-08-26 21:43:42.392 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.0 GET http://localhost/api/agents?page=1&pageSize=100 - null null
+[2025-08-26 21:43:42.391 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.0 GET http://localhost/api/sessions?page=1&pageSize=100 - null null
+[2025-08-26 21:43:42.406 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.0 GET http://localhost/api/agents?page=1&pageSize=100 - 404 0 null 14.4275ms
+[2025-08-26 21:43:42.409 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost/api/agents, Response status code: 404
+[2025-08-26 21:43:42.406 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.0 GET http://localhost/api/sessions?page=1&pageSize=100 - 404 0 null 15.0183ms
+[2025-08-26 21:43:42.413 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost/api/sessions, Response status code: 404
+[2025-08-26 21:44:35.282 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.0 GET http://localhost/api/tenants/68ae09d3096d59594289b03d/agents - null null
+[2025-08-26 21:44:35.306 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executing endpoint 'RdpRelay.Portal.Api.Controllers.AgentsController.GetAgents (RdpRelay.Portal.Api)'
+[2025-08-26 21:44:35.524 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Route matched with {action = "GetAgents", controller = "Agents"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[RdpRelay.Portal.Api.Models.PagedResponse`1[RdpRelay.Portal.Api.Models.Agent]]] GetAgents(System.String, System.String, System.Nullable`1[RdpRelay.Portal.Api.Models.AgentStatus], System.String, Int32, Int32) on controller RdpRelay.Portal.Api.Controllers.AgentsController (RdpRelay.Portal.Api).
+[2025-08-26 21:44:35.754 +00:00 [ERR] RdpRelay.Portal.Api.Controllers.AgentsController: Error retrieving agents for tenant 68ae09d3096d59594289b03d
+System.FormatException: An error occurred while deserializing the Settings property of class RdpRelay.Portal.Api.Models.Tenant: Element 'maxSessions' does not match any field or property of class RdpRelay.Portal.Api.Models.TenantSettings.
+ ---> System.FormatException: Element 'maxSessions' does not match any field or property of class RdpRelay.Portal.Api.Models.TenantSettings.
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeClass(BsonDeserializationContext context)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at MongoDB.Bson.Serialization.Serializers.SerializerBase`1.MongoDB.Bson.Serialization.IBsonSerializer.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeMemberValue(BsonDeserializationContext context, BsonMemberMap memberMap)
+   --- End of inner exception stack trace ---
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeMemberValue(BsonDeserializationContext context, BsonMemberMap memberMap)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeClass(BsonDeserializationContext context)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize[TValue](IBsonSerializer`1 serializer, BsonDeserializationContext context)
+   at MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch[TDocument](RawBsonArray batch, IBsonSerializer`1 documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](IReadBinding binding, IReadOperation`1 operation, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSessionAsync[TResult](Func`2 funcAsync, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.FirstOrDefaultAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at RdpRelay.Portal.Api.Services.TenantService.GetTenantAsync(String tenantId) in /src/portal-api/RdpRelay.Portal.Api/Services/TenantService.cs:line 45
+   at RdpRelay.Portal.Api.Services.TenantService.ValidateTenantAccessAsync(ClaimsPrincipal user, String tenantId) in /src/portal-api/RdpRelay.Portal.Api/Services/TenantService.cs:line 130
+   at RdpRelay.Portal.Api.Controllers.AgentsController.GetAgents(String tenantId, String groupId, Nullable`1 status, String search, Int32 skip, Int32 limit) in /src/portal-api/RdpRelay.Portal.Api/Controllers/AgentsController.cs:line 36
+[2025-08-26 21:44:35.830 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor: Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2025-08-26 21:44:35.835 +00:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker: Executed action RdpRelay.Portal.Api.Controllers.AgentsController.GetAgents (RdpRelay.Portal.Api) in 309.5782ms
+[2025-08-26 21:44:35.836 +00:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executed endpoint 'RdpRelay.Portal.Api.Controllers.AgentsController.GetAgents (RdpRelay.Portal.Api)'
+[2025-08-26 21:44:35.837 +00:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.0 GET http://localhost/api/tenants/68ae09d3096d59594289b03d/agents - 500 null application/json; charset=utf-8 555.5119ms

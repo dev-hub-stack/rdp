@@ -1,0 +1,32 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "Kestrel": {
+    "Endpoints": {
+      "Http": {
+        "Url": "http://0.0.0.0:5001"
+      },
+      "WebSocket": {
+        "Url": "http://0.0.0.0:9443"
+      }
+    }
+  },
+  "Relay": {
+    "MaxConcurrentSessions": 100,
+    "SessionTimeoutMinutes": 480,
+    "HeartbeatIntervalSeconds": 30,
+    "RequireSsl": false
+  },
+  "MongoDb": {
+    "ConnectionString": "mongodb://admin:${MONGODB_PASSWORD}@mongodb:27017/rdp_relay?authSource=admin",
+    "DatabaseName": "rdp_relay"
+  },
+  "Redis": {
+    "ConnectionString": "redis:6379,password=${REDIS_PASSWORD}"
+  }
+}

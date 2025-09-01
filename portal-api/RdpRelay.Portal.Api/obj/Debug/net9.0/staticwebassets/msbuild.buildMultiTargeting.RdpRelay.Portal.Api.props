@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/RdpRelay.Portal.Api.props" />
+</Project>

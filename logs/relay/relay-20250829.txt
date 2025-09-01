@@ -1,0 +1,27 @@
+[2025-08-29 19:05:41.537 +00:00 INF] : Starting RDP Relay Server
+[2025-08-29 19:05:41.756 +00:00 WRN] Microsoft.AspNetCore.DataP2025-08-29 19:05:41.756 +00:00 [WRN] Storing keys in a directory '/home/appuser/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+2025-08-29 19:05:41.768 +00:00 [INF] User profile is available. Using '/home/appuser/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-08-29 19:05:41.831 +00:00 [INF] Creating key {76565ffa-049e-4b00-9bec-9b2b505afda0} with creation date 2025-08-29 19:05:41Z, activation date 2025-08-29 19:05:41Z, and expiration date 2025-11-27 19:05:41Z.
+2025-08-29 19:05:41.880 +00:00 [WRN] No XML encryptor configured. Key {76565ffa-049e-4b00-9bec-9b2b505afda0} may be persisted to storage in unencrypted form.
+2025-08-29 19:05:41.909 +00:00 [INF] Writing data to file '/home/appuser/.aspnet/DataProtection-Keys/key-76565ffa-049e-4b00-9bec-9b2b505afda0.xml'.
+2025-08-29 19:05:41.954 +00:00 [INF] Relay Background Service starting
+2025-08-29 19:05:41.974 +00:00 [INF] TCP Relay Service started on :443
+2025-08-29 19:05:42.023 +00:00 [WRN] Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://+:8080;https://+:8443'.
+2025-08-29 19:05:42.915 +00:00 [INF] Now listening on: http://[::]:8080
+2025-08-29 19:05:42.919 +00:00 [INF] Now listening on: https://[::]:8443
+2025-08-29 19:05:42.922 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-29 19:05:42.925 +00:00 [INF] Hosting environment: Production
+2025-08-29 19:05:42.930 +00:00 [INF] Content root path: /app
+2025-08-29 19:25:25.383 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/health - null null
+2025-08-29 19:25:25.994 +00:00 [INF] Executing endpoint 'HTTP: GET /health'
+2025-08-29 19:25:26.003 +00:00 [INF] Setting HTTP status code 200.
+2025-08-29 19:25:26.052 +00:00 [INF] Writing value of type '<>f__AnonymousType0`2' as Json.
+2025-08-29 19:25:26.078 +00:00 [INF] Executed endpoint 'HTTP: GET /health'
+2025-08-29 19:25:26.089 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/health - 200 null application/json; charset=utf-8 723.6809ms
+2025-08-29 21:19:10.892 +00:00 [WRN] As of ""2025-08-29T21:19:04.7018226+00:00"", the heartbeat has been running for ""00:00:01.6596467"" which is longer than ""00:00:01"". This could be caused by thread pool starvation.
+ecuting endpoint 'HTTP: GET /health'
+[2025-08-29 19:25:26.003 +00:00 INF] Microsoft.AspNetCore.Http.Result.OkObjectResult: Setting HTTP status code 200.
+[2025-08-29 19:25:26.052 +00:00 INF] Microsoft.AspNetCore.Http.Result.OkObjectResult: Writing value of type '<>f__AnonymousType0`2' as Json.
+[2025-08-29 19:25:26.078 +00:00 INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executed endpoint 'HTTP: GET /health'
+[2025-08-29 19:25:26.089 +00:00 INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.1 GET http://localhost:5001/health - 200 null application/json; charset=utf-8 723.6809ms
+[2025-08-29 21:19:10.892 +00:00 WRN] Microsoft.AspNetCore.Server.Kestrel: As of ""2025-08-29T21:19:04.7018226+00:00"", the heartbeat has been running for ""00:00:01.6596467"" which is longer than ""00:00:01"". This could be caused by thread pool starvation.

@@ -1,0 +1,6 @@
+@RdpRelay.Portal.Api_HostAddress = http://localhost:5056
+
+GET {{RdpRelay.Portal.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,26 @@
+[2025-08-28 05:05:58.370 +00:00 WRN] Microsoft.AspNetCore.Server.Kestrel: As of ""2025-08-28T05:04:53.7095444+00:00"", the heartbeat has been running for ""00:00:02.5468252"" which is longer than ""00:00:01"". This could be caused by thread pool starvation.
+2025-08-28 05:05:58.370 +00:00 [WRN] As of ""2025-08-28T05:04:53.7095444+00:00"", the heartbeat has been running for ""00:00:02.5468252"" which is longer than ""00:00:01"". This could be caused by thread pool starvation.
+[2025-08-28 07:40:12.838 +00:00 INF] : Starting RDP Relay Server
+[2025-08-28 07:40:13.096 +00:00 WRN] Microsoft.AspNetCore.DataP2025-08-28 07:40:13.096 +00:00 [WRN] Storing keys in a directory '/home/appuser/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+2025-08-28 07:40:13.105 +00:00 [INF] User profile is available. Using '/home/appuser/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-08-28 07:40:13.331 +00:00 [INF] Relay Background Service starting
+2025-08-28 07:40:13.350 +00:00 [INF] TCP Relay Service started on :443
+2025-08-28 07:40:13.367 +00:00 [WRN] Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://+:8080;https://+:8443'.
+2025-08-28 07:40:14.191 +00:00 [INF] Now listening on: http://[::]:8080
+2025-08-28 07:40:14.193 +00:00 [INF] Now listening on: https://[::]:8443
+2025-08-28 07:40:14.195 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-28 07:40:14.198 +00:00 [INF] Hosting environment: Production
+2025-08-28 07:40:14.200 +00:00 [INF] Content root path: /app
+2025-08-28 12:56:25.678 +00:00 [INF] Application is shutting down...
+2025-08-28 12:56:26.264 +00:00 [INF] Relay Background Service stopping
+2025-08-28 12:56:26.354 +00:00 [INF] TCP Relay Service stopped
+2025-08-28 12:56:26.369 +00:00 [ERR] Error accepting TCP client
+System.Net.Sockets.SocketException (125): Operation canceled
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Net.Sockets.Socket>.GetResult(Int16 token)
+   at System.Net.Sockets.TcpListener.<AcceptTcpClientAsync>g__WaitAndWrap|32_0(ValueTask`1 task)
+   at RdpRelay.Relay.Services.TcpRelayService.AcceptClientsAsync(CancellationToken cancellationToken) in /src/relay/RdpRelay.Relay/Services/TcpRelayService.cs:line 78
+EventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Net.Sockets.Socket>.GetResult(Int16 token)
+   at System.Net.Sockets.TcpListener.<AcceptTcpClientAsync>g__WaitAndWrap|32_0(ValueTask`1 task)
+   at RdpRelay.Relay.Services.TcpRelayService.AcceptClientsAsync(CancellationToken cancellationToken) in /src/relay/RdpRelay.Relay/Services/TcpRelayService.cs:line 78

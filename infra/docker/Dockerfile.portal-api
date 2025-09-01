@@ -1,0 +1,43 @@
+# Portal API Dockerfile
+FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS base
+WORKDIR /app
+EXPOSE 8080
+
+FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
+WORKDIR /src
+
+# Copy solution file and project files
+COPY RdpRelay.sln .
+COPY portal-api/RdpRelay.Portal.Api/RdpRelay.Portal.Api.csproj portal-api/RdpRelay.Portal.Api/
+
+# Restore dependencies
+RUN dotnet restore portal-api/RdpRelay.Portal.Api/RdpRelay.Portal.Api.csproj
+
+# Copy source code
+COPY portal-api/RdpRelay.Portal.Api/ portal-api/RdpRelay.Portal.Api/
+
+# Build application
+WORKDIR /src/portal-api/RdpRelay.Portal.Api
+RUN dotnet build -c Release -o /app/build
+
+FROM build AS publish
+RUN dotnet publish -c Release -o /app/publish
+
+FROM base AS final
+WORKDIR /app
+
+# Install certificates
+RUN apt-get update && apt-get install -y ca-certificates && rm -rf /var/lib/apt/lists/*
+
+# Create logs directory
+RUN mkdir -p /app/logs
+
+# Copy published application
+COPY --from=publish /app/publish .
+
+# Create non-root user
+RUN adduser --disabled-password --gecos '' appuser && \
+    chown -R appuser:appuser /app
+USER appuser
+
+ENTRYPOINT ["dotnet", "RdpRelay.Portal.Api.dll"]

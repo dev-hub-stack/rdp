@@ -1,0 +1,57 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "relay", "relay", "{6B98C41A-B9C3-4B02-B968-7381EAC66A43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RdpRelay.Relay", "relay\RdpRelay.Relay\RdpRelay.Relay.csproj", "{B386351A-6181-4FE9-81C9-35ECDD448E53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "portal-api", "portal-api", "{295C19F5-9DFC-4B33-AD2A-92E4474121F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RdpRelay.Portal.Api", "portal-api\RdpRelay.Portal.Api\RdpRelay.Portal.Api.csproj", "{06F64F96-FEDE-42C0-9E3F-CBFC1BD04186}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "agent-win", "agent-win", "{4E8F6A59-4179-4719-A098-40FF6D5FBDA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RdpRelay.Agent.Win", "agent-win\RdpRelay.Agent.Win\RdpRelay.Agent.Win.csproj", "{49AEC79B-8552-48DA-AC9A-A9115C6CE834}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1B2C3D4-E5F6-7890-ABCD-123456789012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B2C3D4-E5F6-7890-ABCD-123456789012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B2C3D4-E5F6-7890-ABCD-123456789012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B2C3D4-E5F6-7890-ABCD-123456789012}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2C3D4E5-F6G7-8901-BCDE-234567890123}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2C3D4E5-F6G7-8901-BCDE-234567890123}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2C3D4E5-F6G7-8901-BCDE-234567890123}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2C3D4E5-F6G7-8901-BCDE-234567890123}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3D4E5F6-G7H8-9012-CDEF-345678901234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3D4E5F6-G7H8-9012-CDEF-345678901234}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3D4E5F6-G7H8-9012-CDEF-345678901234}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3D4E5F6-G7H8-9012-CDEF-345678901234}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5F6G7H8-I9J0-1234-EF01-567890123456}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5F6G7H8-I9J0-1234-EF01-567890123456}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5F6G7H8-I9J0-1234-EF01-567890123456}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5F6G7H8-I9J0-1234-EF01-567890123456}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B386351A-6181-4FE9-81C9-35ECDD448E53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B386351A-6181-4FE9-81C9-35ECDD448E53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B386351A-6181-4FE9-81C9-35ECDD448E53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B386351A-6181-4FE9-81C9-35ECDD448E53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06F64F96-FEDE-42C0-9E3F-CBFC1BD04186}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06F64F96-FEDE-42C0-9E3F-CBFC1BD04186}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06F64F96-FEDE-42C0-9E3F-CBFC1BD04186}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06F64F96-FEDE-42C0-9E3F-CBFC1BD04186}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49AEC79B-8552-48DA-AC9A-A9115C6CE834}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49AEC79B-8552-48DA-AC9A-A9115C6CE834}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49AEC79B-8552-48DA-AC9A-A9115C6CE834}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49AEC79B-8552-48DA-AC9A-A9115C6CE834}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B386351A-6181-4FE9-81C9-35ECDD448E53} = {6B98C41A-B9C3-4B02-B968-7381EAC66A43}
+		{06F64F96-FEDE-42C0-9E3F-CBFC1BD04186} = {295C19F5-9DFC-4B33-AD2A-92E4474121F1}
+		{49AEC79B-8552-48DA-AC9A-A9115C6CE834} = {4E8F6A59-4179-4719-A098-40FF6D5FBDA7}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,190 @@
+[2025-08-26 19:23:39.292 +00:00 INF] : Starting RDP Relay Server
+[2025-08-26 19:23:40.847 +00:00 WRN] Microsoft.AspNetCore.DataP2025-08-26 19:23:40.847 +00:00 [WRN] Storing keys in a directory '/home/appuser/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+2025-08-26 19:23:40.929 +00:00 [INF] User profile is available. Using '/home/appuser/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-08-26 19:23:41.459 +00:00 [INF] Creating key {82e10830-8a99-40b1-8d7b-65f4b4c205c6} with creation date 2025-08-26 19:23:41Z, activation date 2025-08-26 19:23:41Z, and expiration date 2025-11-24 19:23:41Z.
+2025-08-26 19:23:41.691 +00:00 [WRN] No XML encryptor configured. Key {82e10830-8a99-40b1-8d7b-65f4b4c205c6} may be persisted to storage in unencrypted form.
+2025-08-26 19:23:41.783 +00:00 [INF] Writing data to file '/home/appuser/.aspnet/DataProtection-Keys/key-82e10830-8a99-40b1-8d7b-65f4b4c205c6.xml'.
+2025-08-26 19:23:42.048 +00:00 [INF] Relay Background Service starting
+2025-08-26 19:23:42.119 +00:00 [INF] TCP Relay Service started on :443
+2025-08-26 19:23:42.232 +00:00 [WRN] Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://+:8080;https://+:8443'.
+2025-08-26 19:23:48.340 +00:00 [INF] Now listening on: http://[::]:8080
+2025-08-26 19:23:48.356 +00:00 [INF] Now listening on: https://[::]:8443
+2025-08-26 19:23:48.361 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-26 19:23:48.379 +00:00 [INF] Hosting environment: Production
+2025-08-26 19:23:48.388 +00:00 [INF] Content root path: /app
+2025-08-26 19:30:01.072 +00:00 [INF] Application is shutting down...
+2025-08-26 19:30:01.173 +00:00 [INF] Relay Background Service stopping
+2025-08-26 19:30:01.179 +00:00 [INF] TCP Relay Service stopped
+2025-08-26 19:30:01.183 +00:00 [ERR] Error accepting TCP client
+System.Net.Sockets.SocketException (125): Operation canceled
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Net.Sockets.Socket>.GetResult(Int16 token)
+   at System.Net.Sockets.TcpListener.<AcceptTcpClientAsync>g__WaitAndWrap|32_0(ValueTask`1 task)
+   at RdpRelay.Relay.Services.TcpRelayService.AcceptClientsAsync(CancellationToken cancellationToken) in /src/relay/RdpRelay.Relay/Services/TcpRelayService.cs:line 78
+:30:01.183 +00:00 ERR] RdpRelay.Relay.Services.TcpRelayService: Error accepting TCP client
+System.Net.Sockets.SocketException (125): Operation canceled
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Net.Sockets.Socket>.GetResult(Int16 token)
+   at System.Net.Sockets.TcpListener.<AcceptTcpClientAsync>g__WaitAndWrap|32_0(ValueTask`1 task)
+   at RdpRelay.Relay.Services.TcpRelayService.AcceptClientsAsync(CancellationToken cancellationToken) in /src/relay/RdpRelay.Relay/Services/TcpRelayService.cs:line 78
+[2025-08-26 19:30:08.085 +00:00 INF] : Starting RDP Relay Server
+[2025-08-26 19:30:08.445 +00:00 WRN] Microsoft.AspNetCore.DataP2025-08-26 19:30:08.445 +00:00 [WRN] Storing keys in a directory '/home/appuser/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+2025-08-26 19:30:08.459 +00:00 [INF] User profile is available. Using '/home/appuser/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-08-26 19:30:08.549 +00:00 [INF] Creating key {28ec5123-70cc-4d3b-840c-5a21a7193eed} with creation date 2025-08-26 19:30:08Z, activation date 2025-08-26 19:30:08Z, and expiration date 2025-11-24 19:30:08Z.
+2025-08-26 19:30:08.756 +00:00 [WRN] No XML encryptor configured. Key {28ec5123-70cc-4d3b-840c-5a21a7193eed} may be persisted to storage in unencrypted form.
+2025-08-26 19:30:08.786 +00:00 [INF] Writing data to file '/home/appuser/.aspnet/DataProtection-Keys/key-28ec5123-70cc-4d3b-840c-5a21a7193eed.xml'.
+2025-08-26 19:30:08.847 +00:00 [INF] Relay Background Service starting
+2025-08-26 19:30:08.953 +00:00 [INF] TCP Relay Service started on :443
+2025-08-26 19:30:09.010 +00:00 [WRN] Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://+:8080;https://+:8443'.
+2025-08-26 19:30:10.118 +00:00 [INF] Now listening on: http://[::]:8080
+2025-08-26 19:30:10.122 +00:00 [INF] Now listening on: https://[::]:8443
+2025-08-26 19:30:10.124 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-26 19:30:10.130 +00:00 [INF] Hosting environment: Production
+2025-08-26 19:30:10.132 +00:00 [INF] Content root path: /app
+2025-08-26 19:35:11.708 +00:00 [INF] Application is shutting down...
+2025-08-26 19:35:11.757 +00:00 [INF] Relay Background Service stopping
+2025-08-26 19:35:11.760 +00:00 [INF] TCP Relay Service stopped
+2025-08-26 19:35:11.764 +00:00 [ERR] Error accepting TCP client
+System.Net.Sockets.SocketException (125): Operation canceled
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Net.Sockets.Socket>.GetResult(Int16 token)
+   at System.Net.Sockets.TcpListener.<AcceptTcpClientAsync>g__WaitAndWrap|32_0(ValueTask`1 task)
+   at RdpRelay.Relay.Services.TcpRelayService.AcceptClientsAsync(CancellationToken cancellationToken) in /src/relay/RdpRelay.Relay/Services/TcpRelayService.cs:line 78
+:35:11.764 +00:00 ERR] RdpRelay.Relay.Services.TcpRelayService: Error accepting TCP client
+System.Net.Sockets.SocketException (125): Operation canceled
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Net.Sockets.Socket>.GetResult(Int16 token)
+   at System.Net.Sockets.TcpListener.<AcceptTcpClientAsync>g__WaitAndWrap|32_0(ValueTask`1 task)
+   at RdpRelay.Relay.Services.TcpRelayService.AcceptClientsAsync(CancellationToken cancellationToken) in /src/relay/RdpRelay.Relay/Services/TcpRelayService.cs:line 78
+[2025-08-26 19:37:06.101 +00:00 INF] : Starting RDP Relay Server
+[2025-08-26 19:37:06.429 +00:00 WRN] Microsoft.AspNetCore.DataP2025-08-26 19:37:06.429 +00:00 [WRN] Storing keys in a directory '/home/appuser/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+2025-08-26 19:37:06.437 +00:00 [INF] User profile is available. Using '/home/appuser/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-08-26 19:37:06.479 +00:00 [INF] Creating key {7be90e3f-d2c9-4fcc-b535-c8051cc3d21d} with creation date 2025-08-26 19:37:06Z, activation date 2025-08-26 19:37:06Z, and expiration date 2025-11-24 19:37:06Z.
+2025-08-26 19:37:06.537 +00:00 [WRN] No XML encryptor configured. Key {7be90e3f-d2c9-4fcc-b535-c8051cc3d21d} may be persisted to storage in unencrypted form.
+2025-08-26 19:37:06.555 +00:00 [INF] Writing data to file '/home/appuser/.aspnet/DataProtection-Keys/key-7be90e3f-d2c9-4fcc-b535-c8051cc3d21d.xml'.
+2025-08-26 19:37:06.613 +00:00 [INF] Relay Background Service starting
+2025-08-26 19:37:06.732 +00:00 [INF] TCP Relay Service started on :443
+2025-08-26 19:37:06.835 +00:00 [WRN] Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://+:8080;https://+:8443'.
+2025-08-26 19:37:07.690 +00:00 [INF] Now listening on: http://[::]:8080
+2025-08-26 19:37:07.693 +00:00 [INF] Now listening on: https://[::]:8443
+2025-08-26 19:37:07.696 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-26 19:37:07.700 +00:00 [INF] Hosting environment: Production
+2025-08-26 19:37:07.702 +00:00 [INF] Content root path: /app
+2025-08-26 19:39:20.881 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/health - null null
+2025-08-26 19:39:21.326 +00:00 [INF] Executing endpoint 'HTTP: GET /health'
+2025-08-26 19:39:21.340 +00:00 [INF] Setting HTTP status code 200.
+2025-08-26 19:39:21.430 +00:00 [INF] Writing value of type '<>f__AnonymousType0`2' as Json.
+2025-08-26 19:39:21.473 +00:00 [INF] Executed endpoint 'HTTP: GET /health'
+2025-08-26 19:39:21.494 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/health - 200 null application/json; charset=utf-8 618.2802ms
+2025-08-26 20:06:38.905 +00:00 [INF] Request starting HTTP/1.1 HEAD http://localhost:5001/ - null null
+2025-08-26 20:06:38.973 +00:00 [INF] Request finished HTTP/1.1 HEAD http://localhost:5001/ - 404 null null 76.492ms
+2025-08-26 20:06:38.987 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: HEAD http://localhost:5001/, Response status code: 404
+2025-08-26 20:06:55.322 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/health - null null
+2025-08-26 20:06:55.333 +00:00 [INF] Executing endpoint 'HTTP: GET /health'
+2025-08-26 20:06:55.337 +00:00 [INF] Setting HTTP status code 200.
+2025-08-26 20:06:55.358 +00:00 [INF] Writing value of type '<>f__AnonymousType0`2' as Json.
+2025-08-26 20:06:55.362 +00:00 [INF] Executed endpoint 'HTTP: GET /health'
+2025-08-26 20:06:55.364 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/health - 200 null application/json; charset=utf-8 42.5778ms
+2025-08-26 20:20:41.702 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/health - null null
+2025-08-26 20:20:41.716 +00:00 [INF] Executing endpoint 'HTTP: GET /health'
+2025-08-26 20:20:41.718 +00:00 [INF] Setting HTTP status code 200.
+2025-08-26 20:20:41.719 +00:00 [INF] Writing value of type '<>f__AnonymousType0`2' as Json.
+2025-08-26 20:20:41.721 +00:00 [INF] Executed endpoint 'HTTP: GET /health'
+2025-08-26 20:20:41.723 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/health - 200 null application/json; charset=utf-8 22.1527ms
+2025-08-26 20:21:34.151 +00:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - null 0
+2025-08-26 20:21:34.171 +00:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - 404 0 null 20.2588ms
+2025-08-26 20:21:34.178 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS http://localhost:5001/api/auth/login, Response status code: 404
+2025-08-26 20:24:02.800 +00:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - null null
+2025-08-26 20:24:02.827 +00:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - 404 0 null 21.504ms
+2025-08-26 20:24:02.851 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS http://localhost:5001/api/auth/login, Response status code: 404
+2025-08-26 20:24:07.838 +00:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - null null
+2025-08-26 20:24:07.843 +00:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - 404 0 null 4.8757ms
+2025-08-26 20:24:07.849 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS http://localhost:5001/api/auth/login, Response status code: 404
+2025-08-26 20:36:36.436 +00:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - null null
+2025-08-26 20:36:36.449 +00:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - 404 0 null 16.7955ms
+2025-08-26 20:36:36.452 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS http://localhost:5001/api/auth/login, Response status code: 404
+2025-08-26 20:36:37.507 +00:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - null null
+2025-08-26 20:36:37.510 +00:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - 404 0 null 2.0724ms
+2025-08-26 20:36:37.525 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS http://localhost:5001/api/auth/login, Response status code: 404
+2025-08-26 20:36:38.121 +00:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - null null
+2025-08-26 20:36:38.123 +00:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - 404 0 null 2.6921ms
+2025-08-26 20:36:38.133 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS http://localhost:5001/api/auth/login, Response status code: 404
+2025-08-26 20:36:54.670 +00:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - null null
+2025-08-26 20:36:54.676 +00:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - 404 0 null 5.5568ms
+2025-08-26 20:36:54.683 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS http://localhost:5001/api/auth/login, Response status code: 404
+2025-08-26 20:36:55.499 +00:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - null null
+2025-08-26 20:36:55.502 +00:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - 404 0 null 3.2063ms
+2025-08-26 20:36:55.505 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS http://localhost:5001/api/auth/login, Response status code: 404
+2025-08-26 20:42:46.430 +00:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - null null
+2025-08-26 20:42:46.451 +00:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - 404 0 null 21.2205ms
+2025-08-26 20:42:46.454 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS http://localhost:5001/api/auth/login, Response status code: 404
+2025-08-26 20:42:47.287 +00:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - null null
+2025-08-26 20:42:47.292 +00:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - 404 0 null 4.986ms
+2025-08-26 20:42:47.319 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS http://localhost:5001/api/auth/login, Response status code: 404
+2025-08-26 20:42:47.829 +00:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - null null
+2025-08-26 20:42:47.833 +00:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - 404 0 null 3.5899ms
+2025-08-26 20:42:47.837 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS http://localhost:5001/api/auth/login, Response status code: 404
+2025-08-26 20:42:48.021 +00:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - null null
+2025-08-26 20:42:48.022 +00:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - 404 0 null 1.6776ms
+2025-08-26 20:42:48.033 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS http://localhost:5001/api/auth/login, Response status code: 404
+2025-08-26 20:42:48.205 +00:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - null null
+2025-08-26 20:42:48.207 +00:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - 404 0 null 2.2558ms
+2025-08-26 20:42:48.215 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS http://localhost:5001/api/auth/login, Response status code: 404
+2025-08-26 20:42:48.386 +00:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - null null
+2025-08-26 20:42:48.388 +00:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - 404 0 null 1.9479ms
+2025-08-26 20:42:48.390 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS http://localhost:5001/api/auth/login, Response status code: 404
+2025-08-26 20:42:48.572 +00:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - null null
+2025-08-26 20:42:48.587 +00:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - 404 0 null 14.081ms
+2025-08-26 20:42:48.591 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS http://localhost:5001/api/auth/login, Response status code: 404
+2025-08-26 20:45:06.279 +00:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - null null
+2025-08-26 20:45:06.283 +00:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - 404 0 null 3.9746ms
+2025-08-26 20:45:06.286 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS http://localhost:5001/api/auth/login, Response status code: 404
+2025-08-26 20:45:07.225 +00:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - null null
+2025-08-26 20:45:07.231 +00:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - 404 0 null 5.86ms
+2025-08-26 20:45:07.240 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS http://localhost:5001/api/auth/login, Response status code: 404
+2025-08-26 20:45:09.194 +00:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - null null
+2025-08-26 20:45:09.198 +00:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - 404 0 null 4.0362ms
+2025-08-26 20:45:09.201 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS http://localhost:5001/api/auth/login, Response status code: 404
+2025-08-26 20:45:52.329 +00:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - null null
+2025-08-26 20:45:52.333 +00:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - 404 0 null 3.9494ms
+2025-08-26 20:45:52.336 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS http://localhost:5001/api/auth/login, Response status code: 404
+2025-08-26 20:58:54.627 +00:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - null null
+2025-08-26 20:58:54.668 +00:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - 404 0 null 42.496ms
+2025-08-26 20:58:54.692 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS http://localhost:5001/api/auth/login, Response status code: 404
+2025-08-26 21:02:50.855 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/health - null null
+2025-08-26 21:02:50.876 +00:00 [INF] Executing endpoint 'HTTP: GET /health'
+2025-08-26 21:02:50.886 +00:00 [INF] Setting HTTP status code 200.
+2025-08-26 21:02:50.893 +00:00 [INF] Writing value of type '<>f__AnonymousType0`2' as Json.
+2025-08-26 21:02:50.908 +00:00 [INF] Executed endpoint 'HTTP: GET /health'
+2025-08-26 21:02:50.909 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/health - 200 null application/json; charset=utf-8 54.6478ms
+2025-08-26 21:10:32.618 +00:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - null null
+2025-08-26 21:10:32.626 +00:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - 404 0 null 5.9145ms
+2025-08-26 21:10:32.628 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS http://localhost:5001/api/auth/login, Response status code: 404
+2025-08-26 21:10:53.138 +00:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - null null
+2025-08-26 21:10:53.143 +00:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - 404 0 null 4.4253ms
+2025-08-26 21:10:53.154 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS http://localhost:5001/api/auth/login, Response status code: 404
+d the end of the middleware pipeline without being handled by application code. Request path: OPTIONS http://localhost:5001/api/auth/login, Response status code: 404
+[2025-08-26 20:45:07.225 +00:00 INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - null null
+[2025-08-26 20:45:07.231 +00:00 INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - 404 0 null 5.86ms
+[2025-08-26 20:45:07.240 +00:00 INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS http://localhost:5001/api/auth/login, Response status code: 404
+[2025-08-26 20:45:09.194 +00:00 INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - null null
+[2025-08-26 20:45:09.198 +00:00 INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - 404 0 null 4.0362ms
+[2025-08-26 20:45:09.201 +00:00 INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS http://localhost:5001/api/auth/login, Response status code: 404
+[2025-08-26 20:45:52.329 +00:00 INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - null null
+[2025-08-26 20:45:52.333 +00:00 INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - 404 0 null 3.9494ms
+[2025-08-26 20:45:52.336 +00:00 INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS http://localhost:5001/api/auth/login, Response status code: 404
+[2025-08-26 20:58:54.627 +00:00 INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - null null
+[2025-08-26 20:58:54.668 +00:00 INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - 404 0 null 42.496ms
+[2025-08-26 20:58:54.692 +00:00 INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS http://localhost:5001/api/auth/login, Response status code: 404
+[2025-08-26 21:02:50.855 +00:00 INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.1 GET http://localhost:5001/health - null null
+[2025-08-26 21:02:50.876 +00:00 INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executing endpoint 'HTTP: GET /health'
+[2025-08-26 21:02:50.886 +00:00 INF] Microsoft.AspNetCore.Http.Result.OkObjectResult: Setting HTTP status code 200.
+[2025-08-26 21:02:50.893 +00:00 INF] Microsoft.AspNetCore.Http.Result.OkObjectResult: Writing value of type '<>f__AnonymousType0`2' as Json.
+[2025-08-26 21:02:50.908 +00:00 INF] Microsoft.AspNetCore.Routing.EndpointMiddleware: Executed endpoint 'HTTP: GET /health'
+[2025-08-26 21:02:50.909 +00:00 INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.1 GET http://localhost:5001/health - 200 null application/json; charset=utf-8 54.6478ms
+[2025-08-26 21:10:32.618 +00:00 INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - null null
+[2025-08-26 21:10:32.626 +00:00 INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - 404 0 null 5.9145ms
+[2025-08-26 21:10:32.628 +00:00 INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS http://localhost:5001/api/auth/login, Response status code: 404
+[2025-08-26 21:10:53.138 +00:00 INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request starting HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - null null
+[2025-08-26 21:10:53.143 +00:00 INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request finished HTTP/1.1 OPTIONS http://localhost:5001/api/auth/login - 404 0 null 4.4253ms
+[2025-08-26 21:10:53.154 +00:00 INF] Microsoft.AspNetCore.Hosting.Diagnostics: Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS http://localhost:5001/api/auth/login, Response status code: 404

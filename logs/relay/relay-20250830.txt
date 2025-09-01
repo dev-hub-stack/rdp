@@ -1,0 +1,9 @@
+[2025-08-30 11:03:23.268 +00:00 INF] Microsoft.Hosting.Lifetime: Application is shutting down...
+[2025-08-30 11:03:23.565 +00:00 INF] RdpRelay.Relay.Services.RelayBac2025-08-30 11:03:23.565 +00:00 [INF] Relay Backgro[2025-08-30 11:03:23.2025-08-30 11:03:23.567 +00:00 [INF] TCP Relay Service stopped
+2025-08-30 11:03:23.577 +00:00 [ERR] Error accepting TCP client
+System.Net.Sockets.SocketException (125): Operation canceled
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Net.Sockets.Socket>.GetResult(Int16 token)
+   at System.Net.Sockets.TcpListener.<AcceptTcpClientAsync>g__WaitAndWrap|32_0(ValueTask`1 task)
+   at RdpRelay.Relay.Services.TcpRelayService.AcceptClientsAsync(CancellationToken cancellationToken) in /src/relay/RdpRelay.Relay/Services/TcpRelayService.cs:line 78
+src/relay/RdpRelay.Relay/Services/TcpRelayService.cs:line 78

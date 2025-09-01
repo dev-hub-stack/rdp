@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "MUK3PH5pjajaB2MtIOHlJlO3i+XUSO6ixtujE8PLwGs=",
+  "Source": "RdpRelay.Portal.Api",
+  "BasePath": "_content/RdpRelay.Portal.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
