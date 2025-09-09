@@ -1,4 +1,7 @@
-using Microsoft.AspNetCore.Authorization;
+clustox1@Clustoxs-MacBook-Pro rdp-relay % curl -s "http://local
+host:5001/health" | head -5
+{"status":"healthy","timestamp":"2025-09-01T20:04:36.0797361Z"}
+clustox1@Clustoxs-MacBook-Pro rdp-relay % using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using RdpRelay.Portal.Api.Services;
 
